@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TYPageViewController_Example' do
+  pod 'TYPageViewController', :path => '../'
+
+  target 'TYPageViewController_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
