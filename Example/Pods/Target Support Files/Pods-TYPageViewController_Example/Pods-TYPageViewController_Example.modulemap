@@ -1,0 +1,6 @@
+framework module Pods_TYPageViewController_Example {
+  umbrella header "Pods-TYPageViewController_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
