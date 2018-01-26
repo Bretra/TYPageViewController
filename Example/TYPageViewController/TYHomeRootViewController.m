@@ -74,7 +74,7 @@
     pageBar.layout.progressHeight = 4;
     pageBar.layout.progressWidth = 60;
     pageBar.layout.cellEdging = 0;
-    pageBar.layout.cellWidth = (375 - 90) / 3;
+    pageBar.layout.cellWidth = 100;
     pageBar.layout.textAnimateEnable = YES;
     pageBar.layout.selectedTextColor = [UIColor blackColor];
     pageBar.layout.normalTextColor = [UIColor darkGrayColor];
@@ -122,15 +122,25 @@
     return BarDefaultHeight;
 }
 ///修改TaBar的frame
-//- (CGRect)pageHeaderTabBarFrameForPageViewController:(TYPageViewController *)pageViewController {
-//    
-//    return  CGRectMake(0, 44, 200, 44);
-//}
+- (CGRect)pageHeaderTabBarFrameForPageViewController:(TYPageViewController *)pageViewController {
+    
+    return  CGRectMake(0, 44, 200, 44);
+}
 
 /// 垂直滚动偏移的百分比
 - (void)pageViewController:(TYPageViewController *)pageViewController scrollViewVerticalScroll:(CGFloat)contentPercentY {
 
-      self.offsetPrecent = contentPercentY;
+    if (contentPercentY >= 1) {
+        self.pageBar.layout.normalTextFont = [UIFont boldSystemFontOfSize:20];
+        self.pageBar.layout.selectedTextFont = [UIFont boldSystemFontOfSize:20];
+        self.pageBar.layout.progressWidth = 40;
+        [self.pageBar reloadData];
+    }else {
+        self.pageBar.layout.normalTextFont = [UIFont boldSystemFontOfSize:30];
+        self.pageBar.layout.selectedTextFont = [UIFont boldSystemFontOfSize:50];
+        self.pageBar.layout.progressWidth = 60;
+        [self.pageBar reloadData];
+    }
     
 }
 ///选了那个ItemBar

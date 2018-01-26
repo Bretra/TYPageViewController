@@ -120,8 +120,10 @@
       self.tabViewBar.frame = tabBarFrame;
       self.tabViewBar.alpha = 1 - contentPercentY;
     }else if (contentPercentY == 1) {
-        CGRect frame = CGRectMake(100, 44, 200, 44);
+         CGFloat tabBarHeight = CGRectGetHeight(self.tabViewBar.frame);
+        CGRect frame = CGRectMake(0 , 44, tabBarFrame.size.width, 44);
         self.tabViewBar.frame = frame;
+        self.tabViewBar.center = CGPointMake([UIScreen mainScreen].bounds.size.width*0.5, frame.origin.y + 22);
         [UIView animateWithDuration:0.65 animations:^{
           self.tabViewBar.alpha = 1.0f;
         }];
