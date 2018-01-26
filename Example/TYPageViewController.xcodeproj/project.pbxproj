@@ -20,6 +20,8 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6DC380CB201A1F290063B3D7 /* TYHomeRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC380CA201A1F290063B3D7 /* TYHomeRootViewController.m */; };
+		6DC380CE201A25030063B3D7 /* TYRecommetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC380CD201A25030063B3D7 /* TYRecommetViewController.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		71A33B832167DCDAE400ABAB /* Pods_TYPageViewController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42B75ACE268F5C57A9BD938 /* Pods_TYPageViewController_Tests.framework */; };
 		7C2A1888A2FC7B51739D5C01 /* Pods_TYPageViewController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36EDA4952805F30E0AD9C306 /* Pods_TYPageViewController_Example.framework */; };
@@ -39,7 +41,7 @@
 /* Begin PBXFileReference section */
 		282551B6AF48260E1FD78158 /* Pods-TYPageViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYPageViewController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TYPageViewController_Tests/Pods-TYPageViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		36EDA4952805F30E0AD9C306 /* Pods_TYPageViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYPageViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BE8357C66CBC0A3A768646D /* TYPageViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TYPageViewController.podspec; path = ../TYPageViewController.podspec; sourceTree = "<group>"; };
+		3BE8357C66CBC0A3A768646D /* TYPageViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TYPageViewController.podspec; path = ../TYPageViewController.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TYPageViewController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYPageViewController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,12 +61,16 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6854B83B84580736A0F8ACBE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6854B83B84580736A0F8ACBE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6DC380C9201A1F290063B3D7 /* TYHomeRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYHomeRootViewController.h; sourceTree = "<group>"; };
+		6DC380CA201A1F290063B3D7 /* TYHomeRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYHomeRootViewController.m; sourceTree = "<group>"; };
+		6DC380CC201A25030063B3D7 /* TYRecommetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYRecommetViewController.h; sourceTree = "<group>"; };
+		6DC380CD201A25030063B3D7 /* TYRecommetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYRecommetViewController.m; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A8061EB354E772F81A13AB7 /* Pods-TYPageViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYPageViewController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TYPageViewController_Example/Pods-TYPageViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BDC1A3B47CC555AD01804F4 /* Pods-TYPageViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYPageViewController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TYPageViewController_Example/Pods-TYPageViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DFF1E8D31D9BB2345C499F95 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DFF1E8D31D9BB2345C499F95 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E42B75ACE268F5C57A9BD938 /* Pods_TYPageViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYPageViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F241E1530C55FCC3541D5547 /* Pods-TYPageViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYPageViewController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TYPageViewController_Tests/Pods-TYPageViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -140,6 +146,10 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				6DC380C9201A1F290063B3D7 /* TYHomeRootViewController.h */,
+				6DC380CA201A1F290063B3D7 /* TYHomeRootViewController.m */,
+				6DC380CC201A25030063B3D7 /* TYRecommetViewController.h */,
+				6DC380CD201A25030063B3D7 /* TYRecommetViewController.m */,
 			);
 			name = "Example for TYPageViewController";
 			path = TYPageViewController;
@@ -250,6 +260,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "1130128166@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = F3ZZL9NMTQ;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -408,7 +421,9 @@
 			files = (
 				6003F59E195388D20070C39A /* TYAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* TYViewController.m in Sources */,
+				6DC380CB201A1F290063B3D7 /* TYHomeRootViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				6DC380CE201A25030063B3D7 /* TYRecommetViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,6 +551,7 @@
 			baseConfigurationReference = 9BDC1A3B47CC555AD01804F4 /* Pods-TYPageViewController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F3ZZL9NMTQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TYPageViewController/TYPageViewController-Prefix.pch";
 				INFOPLIST_FILE = "TYPageViewController/TYPageViewController-Info.plist";
@@ -551,6 +567,7 @@
 			baseConfigurationReference = 7A8061EB354E772F81A13AB7 /* Pods-TYPageViewController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F3ZZL9NMTQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TYPageViewController/TYPageViewController-Prefix.pch";
 				INFOPLIST_FILE = "TYPageViewController/TYPageViewController-Info.plist";

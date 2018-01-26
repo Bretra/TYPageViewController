@@ -111,10 +111,22 @@
     if ([self.tabViewBar respondsToSelector:@selector(tabDidScrollToIndex:)]) {
         [self.tabViewBar tabDidScrollToIndex:index];
     }
-    
-   
-}
 
+}
+///更新tabBar的frame吧
+- (void)updatePageTabBarFrame:(CGRect)tabBarFrame contentPercentY:(CGFloat)contentPercentY animate:(BOOL)animate {
+    
+    if (contentPercentY >= 0 && contentPercentY < 1) { //向上滑动
+      self.tabViewBar.frame = tabBarFrame;
+      self.tabViewBar.alpha = 1 - contentPercentY;
+    }else if (contentPercentY == 1) {
+        CGRect frame = CGRectMake(100, 44, 200, 44);
+        self.tabViewBar.frame = frame;
+        [UIView animateWithDuration:0.65 animations:^{
+          self.tabViewBar.alpha = 1.0f;
+        }];
+    }
+}
 
 
 @end

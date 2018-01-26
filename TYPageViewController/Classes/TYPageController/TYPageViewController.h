@@ -21,7 +21,6 @@
 - (void)pageViewController:(TYPageViewController *)pageViewController scrollViewWillScrollFromIndex:(NSInteger)index;
 /// did 滚动到某个index
 - (void)pageViewController:(TYPageViewController *)pageViewController scrollViewDidScrollToIndex:(NSInteger)index;
-
 @end
 
 ///数据源
@@ -40,6 +39,8 @@
 - (CGFloat)pageHeaderBottomInsetForPageViewController:(TYPageViewController *)pageViewController;
 /// 内容边距
 - (UIEdgeInsets)containerInsetsForPageViewController:(TYPageViewController *)pageViewController;
+///修改TaBar的frame
+- (CGRect)pageHeaderTabBarFrameForPageViewController:(TYPageViewController *)pageViewController;
 
 @end
 

@@ -360,7 +360,7 @@ BOOL     _viewDidAppearIsCalledBefore;
     if (scrollView != object) {
         return;
     }
-    
+  
     CGFloat verticalPercent = ABS(scrollView.contentOffset.y / _headParameter.headHeight);
     [self pageScrollViewVerticalScroll:verticalPercent];
     
@@ -410,7 +410,13 @@ BOOL     _viewDidAppearIsCalledBefore;
     }
     [self.plugins enumerateObjectsUsingBlock:^(TYPageViewControllerPluginBase *plugin, NSUInteger idx, BOOL *stop) {
         [plugin scrollViewVerticalScroll:percent];
+            CGRect tabBarFrame = CGRectZero;
+            if ([self.DataSource respondsToSelector:@selector(pageHeaderTabBarFrameForPageViewController:)]) {
+                tabBarFrame = [self.DataSource pageHeaderTabBarFrameForPageViewController:self];
+            }
+            [plugin updatePageTabBarFrame:tabBarFrame contentPercentY:percent animate:YES];
     }];
+
     
 }
 

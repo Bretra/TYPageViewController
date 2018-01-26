@@ -23,6 +23,9 @@
 - (void)scrollToItemFromIndex:(NSInteger)fromIndex toIndex:(NSInteger)toIndex animate:(BOOL)animate;
 ///从哪个item滚动到某个Item 带有滑动过程中的进度
 - (void)scrollToItemFromIndex:(NSInteger)fromIndex toIndex:(NSInteger)toIndex progress:(CGFloat)progress;
+///更新tabBar的frame
+- (void)updatePageTabBarFrame:(CGRect)tabBarFrame contentPercentY:(CGFloat)contentPercentY animate:(BOOL)animate;
+
 @end
 @interface TYPageViewControllerPluginBase : NSObject<TYPageViewControllerPlugin>
 

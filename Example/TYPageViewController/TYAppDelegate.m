@@ -7,12 +7,19 @@
 //
 
 #import "TYAppDelegate.h"
+#import "TYHomeRootViewController.h"
 
 @implementation TYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    TYHomeRootViewController *homeVc = [TYHomeRootViewController new];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:homeVc];
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 

@@ -1,23 +1,25 @@
 //
-//  TYViewController.m
-//  TYPageViewController
+//  TYRecommetViewController.m
+//  TYPageViewController_Example
 //
-//  Created by 1130128166@qq.com on 12/12/2017.
-//  Copyright (c) 2017 1130128166@qq.com. All rights reserved.
+//  Created by 王智明 on 2018/1/25.
+//  Copyright © 2018年 1130128166@qq.com. All rights reserved.
 //
 
-#import "TYViewController.h"
+#import "TYRecommetViewController.h"
 
-@interface TYViewController ()<UITableViewDataSource>
+@interface TYRecommetViewController ()<UITableViewDataSource>
 
 @end
 
-@implementation TYViewController
+@implementation TYRecommetViewController
+
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view, typically from a nib.
+
     UITableView *tab = [[UITableView alloc] initWithFrame:self.view.bounds style:0];
     tab.dataSource = self;
     [self.view addSubview:tab];
@@ -39,10 +41,5 @@
     
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end
