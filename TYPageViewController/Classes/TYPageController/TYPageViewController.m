@@ -413,8 +413,9 @@ BOOL     _viewDidAppearIsCalledBefore;
             CGRect tabBarFrame = CGRectZero;
             if ([self.DataSource respondsToSelector:@selector(pageHeaderTabBarFrameForPageViewController:)]) {
                 tabBarFrame = [self.DataSource pageHeaderTabBarFrameForPageViewController:self];
+                [plugin updatePageTabBarFrame:tabBarFrame contentPercentY:percent animate:YES];
             }
-            [plugin updatePageTabBarFrame:tabBarFrame contentPercentY:percent animate:YES];
+        
     }];
 
     

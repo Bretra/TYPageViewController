@@ -121,12 +121,11 @@
 - (CGFloat)pageHeaderBottomInsetForPageViewController:(TYPageViewController *)pageViewController {
     return BarDefaultHeight;
 }
-
 ///修改TaBar的frame
-- (CGRect)pageHeaderTabBarFrameForPageViewController:(TYPageViewController *)pageViewController {
-    
-    return  CGRectMake(0, 44, 200, 44);
-}
+//- (CGRect)pageHeaderTabBarFrameForPageViewController:(TYPageViewController *)pageViewController {
+//    
+//    return  CGRectMake(0, 44, 200, 44);
+//}
 
 /// 垂直滚动偏移的百分比
 - (void)pageViewController:(TYPageViewController *)pageViewController scrollViewVerticalScroll:(CGFloat)contentPercentY {
