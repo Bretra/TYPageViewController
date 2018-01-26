@@ -46,5 +46,9 @@
 - (void)scrollToItemFromIndex:(NSInteger)fromIndex toIndex:(NSInteger)toIndex progress:(CGFloat)progress {
     
 }
+///更新tabBar的frame
+- (void)updatePageTabBarFrame:(CGRect)tabBarFrame contentPercentY:(CGFloat)contentPercentY animate:(BOOL)animate {
+    
+}
 
 @end
