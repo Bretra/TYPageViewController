@@ -1,6 +1,6 @@
 {
   "name": "TYPageViewController",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "summary": "TYPageViewController.",
   "description": "多ScrollView 嵌套 悬停Header",
   "homepage": "https://github.com/sherlockmm/TYPageViewController",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/sherlockmm/TYPageViewController.git",
-    "tag": "0.1.4"
+    "tag": "0.1.5"
   },
   "platforms": {
     "ios": "8.0"
@@ -22,9 +22,6 @@
   "dependencies": {
     "MJRefresh": [
       "=3.1.15"
-    ],
-    "SwipeTableView": [
-
     ]
   }
 }

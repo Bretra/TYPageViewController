@@ -7,131 +7,111 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		005599FFF40A1FC6C0A7D636B926AF94 /* STCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A19B4FD78A59830DA3A43967CB61796 /* STCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01A1ECD9C4BCDE4134A181C5D3F4E3E0 /* TYPageViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 439C7A1EA9E09BC1FB7E686BFF8F845F /* TYPageViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 2937ECF2845C5F0D6355D83EB3661DC1 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		07159A933B3C47A02FE2B2744ABAAC89 /* MJRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B26A6B41E49A8F0B94791CA8AAB862 /* MJRefreshStateHeader.m */; };
-		08C26D025C3466F68534F4BA950D3F9F /* TYPageViewControllerPluginHeaderScroll.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C3624B09D8998793845D3981F86FB2 /* TYPageViewControllerPluginHeaderScroll.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E122F516653397E2BB91E22D67F5122 /* UIApplication+StrictKeyWindow.m */; };
-		0A1E34B4A27DCD62A914F3B028A07E6C /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB8B54BA8B7A7B4E6A6B5B9A73E0D4 /* UIView+MJExtension.m */; };
-		0C1EAB5BF5C4D2B737F3DBDCD7086343 /* TYPageViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E1EFEE194CE65BF749FE8D0C9ED572 /* TYPageViewController+Extension.m */; };
-		0EFB524EFDF2F8712A2F5067817A672E /* UIScrollView+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 981032887101293A4FF282116DDAC3A2 /* UIScrollView+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0F406A9A1976D8160D0BFD9AAD696977 /* TYBasePageBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B286C0204CB44F145B82C1D46150FB45 /* TYBasePageBar.m */; };
-		101F836F887C01B45F4DCF351EBC28D1 /* MJRefreshBackNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3596CC532E4909F59B748C93E1C7CE /* MJRefreshBackNormalFooter.m */; };
-		17F033046E658F3BFD0011DCB768CF54 /* MJRefreshBackNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = E151E9504389B1E2962B64060D19EEDE /* MJRefreshBackNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1843E6DF520A5EFE9C83C38E18578E42 /* MJRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 439DA7A7A88D668D6FCE7B4194C7C361 /* MJRefreshAutoStateFooter.m */; };
-		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7962E919C7813C719D7AEF632B6048D /* SwiftSupport.swift */; };
-		1D6C54A95D24A2E51036D9C4824BCB83 /* TYPageBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 67A89E77B2ACCAACC4471264872C6F7E /* TYPageBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1EC3F8D86195D9B2AE537373986804D1 /* TYPageViewControllerPluginTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 40A1BBF89182820885D77C2369869F1F /* TYPageViewControllerPluginTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1EC73FC64D28825AC3B5BF213E8C380E /* SwipeTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD809E59E17621B0BB9C28AFABF04CB2 /* SwipeTableView-dummy.m */; };
-		1ED505CC385A149F4DF8F4B94BA4FC0B /* MJRefreshBackStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C5AD71C2AEE7CDF6F3A2FD72FDF0CD6 /* MJRefreshBackStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22D659EA9FDE5AF373F46D0FD7EF68B4 /* TYPageBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EA46B62AFB89EF8B7EC2B5D3BA23FD42 /* TYPageBar.m */; };
-		2524EC4EF024A6C067A0FA082084CFB5 /* MJRefreshBackStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B1C7D75321AB5947680489EDC7D376 /* MJRefreshBackStateFooter.m */; };
-		294904B7AFC25D5DD3A3E8B6B1D5B8AA /* STHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = CE61362F89738ECBE63E2624E9F14AD7 /* STHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CEA12D52F3F7AC0669C99A157E19F62 /* MJRefreshBackGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 82FA6F8B274F91F142E958A03E4AB557 /* MJRefreshBackGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 409FACC5C5C5978D47CF84F66599838D /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		307C4F7C53E413417FE1F5A722D0A9CD /* UIView+STFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = A4CD9A30314B95D419BCAE9074862B84 /* UIView+STFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		317D8F3269E59F85361D22D3FCFE7AFB /* TYBasePageBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A4FF8F77255B8AD2DBE0CC3F60D4B18 /* TYBasePageBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		344DB99F8332029C0391F08B6D0E425C /* MJRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3F6C0DB6D2596536B35A4F89E7A961 /* MJRefreshAutoNormalFooter.m */; };
-		355C2EB75683D03053E75E050F3096F5 /* SwipeTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 100C66C010392D266DF1C996C46DF1CE /* SwipeTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35D685CF7C6F73A65AD3DD99674CA78F /* MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 00AA10F3D0D3A7DA9EC053EDD980F8D9 /* MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2B1D855F44F7E3334D89C0F884A46F /* UIImage+Diff.m */; };
-		3829CBCC3598DB13C2AD3B7383D1F24A /* MJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E8EEE629DD9ECD581273CB47837A10 /* MJRefreshFooter.m */; };
-		38903E201E3D802286414FE7EC3E1B45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCBDC16ACC0B2E0FC4A41CCCE80896CC /* Foundation.framework */; };
-		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F5586CFA328866D0A0807F608C360BC /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA926BEC5323233CAB015A96BF2F149 /* FBSnapshotTestCase-dummy.m */; };
-		58E6E68D10EF3D64522BD267CC1761A6 /* NSBundle+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 28501F4A6268408E98CC71DBB9DFCAE7 /* NSBundle+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = EB5FB6ADFD71EF7CEC0D6658B1831E44 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		07159A933B3C47A02FE2B2744ABAAC89 /* MJRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D972A86AB8318B6AE5B60D0E310E990 /* MJRefreshStateHeader.m */; };
+		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E9F6F4FF6E07F425A8A63A98178311 /* UIApplication+StrictKeyWindow.m */; };
+		0A1E34B4A27DCD62A914F3B028A07E6C /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7AEDA911078349CFF795BF1197052C /* UIView+MJExtension.m */; };
+		0EFB524EFDF2F8712A2F5067817A672E /* UIScrollView+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 7641C96E2E3D6E40E6754B48649335B4 /* UIScrollView+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		101F836F887C01B45F4DCF351EBC28D1 /* MJRefreshBackNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8FA3FD6BDF3537EB9B467678E323C1 /* MJRefreshBackNormalFooter.m */; };
+		1757B876B635B398EE06D2A28AF8B9EB /* MJRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7119E1C4DCA513F40D2CDEC419AA41E3 /* MJRefresh.framework */; };
+		17F033046E658F3BFD0011DCB768CF54 /* MJRefreshBackNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = D5A611D9AD4AA986FA7D3B7C8E29737A /* MJRefreshBackNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1843E6DF520A5EFE9C83C38E18578E42 /* MJRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 27451D4435D7D8F0014971D8A427D9F6 /* MJRefreshAutoStateFooter.m */; };
+		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4395687E670375860122388D791DCB2B /* SwiftSupport.swift */; };
+		1ED505CC385A149F4DF8F4B94BA4FC0B /* MJRefreshBackStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 64745971FC928991EAD93DD13C08775A /* MJRefreshBackStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		251ABEA3B399B3B7D6918BB05C2C9F09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D757E99AE2411344EEC6E2AF35B4BB /* Foundation.framework */; };
+		2524EC4EF024A6C067A0FA082084CFB5 /* MJRefreshBackStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 687C87830230747FFA6282F6F6B80E26 /* MJRefreshBackStateFooter.m */; };
+		298A62874A9E42A253B4B59A6AD55854 /* Pods-TYPageViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7B1AD0BEB1FF081C569E09C0E86A2D /* Pods-TYPageViewController_Example-dummy.m */; };
+		2CEA12D52F3F7AC0669C99A157E19F62 /* MJRefreshBackGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = A1B22B923AE1D5B50EF2CCF6EA24AF9A /* MJRefreshBackGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DB4CB73CE01FC3FBFE4DE5EC382344F /* TYBasePageBarLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D6F852A277CCD0CDA5EE72622DE93A /* TYBasePageBarLayout.m */; };
+		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = ABB8D2D32CE55327CD3B87AB51C7B3B4 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		344DB99F8332029C0391F08B6D0E425C /* MJRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B6D45367C62C0E6010F77A367CF4CB /* MJRefreshAutoNormalFooter.m */; };
+		35D685CF7C6F73A65AD3DD99674CA78F /* MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = CD67AC0F30AA1FEAB8FFB313A8796937 /* MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 7502221F2D92BAF65630992ED28A2947 /* UIImage+Diff.m */; };
+		3829CBCC3598DB13C2AD3B7383D1F24A /* MJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FDCE4EA20BE70921E84056850380D7 /* MJRefreshFooter.m */; };
+		3D63A105075AFFE737CF7D5C2D058A35 /* TYPageViewControllerPluginTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A79F85039518629904921EC5D14408EF /* TYPageViewControllerPluginTabBar.m */; };
+		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 76491559126E0387E0D3CED0B6BA2E37 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		42EF4DEB3477517E47E75EE3F58BD02D /* TYPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BBC6A0E07DA206EB37271432C098FF /* TYPageViewController.m */; };
+		443926D3A53648B1A1E8C43B12C7FE59 /* TYBasePageBarLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = BFEDF3A785DF67E15580E51E1FC25BF7 /* TYBasePageBarLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CD45DB8445AD38D14645687846C376D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D757E99AE2411344EEC6E2AF35B4BB /* Foundation.framework */; };
+		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3611826E57CF686045555357AC83C2 /* FBSnapshotTestCase-dummy.m */; };
+		58A10A895379B2AF0B6CA4955FD57471 /* TYPageViewControllerPluginTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 40A1BBF89182820885D77C2369869F1F /* TYPageViewControllerPluginTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58E6E68D10EF3D64522BD267CC1761A6 /* NSBundle+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = C905E2F5648719B33AB2179C4654C589 /* NSBundle+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59DACA8BD6EB0FEC574199059F97E027 /* Pods-TYPageViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC6B54385F85069D6F97F35850093037 /* Pods-TYPageViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61E717A47B22679D27B7167F91E32A58 /* TYPageViewControllerPluginTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A79F85039518629904921EC5D14408EF /* TYPageViewControllerPluginTabBar.m */; };
-		621B413DAEFE75991251ED378822527C /* MJRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B40BD522A7D34691B0360E06CAD137C2 /* MJRefresh-dummy.m */; };
-		6298B1C2234864DA5ED3B5E6398B95AC /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C5E32C189183C9521604ACF9F5A94B99 /* MJRefresh.bundle */; };
-		63DE99522F4FEDAF015AEEC57431B1CE /* SwipeTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C767E6C3A711D5A2E40D85FA482AB0 /* SwipeTableView.framework */; };
-		63DEF6924B3FAF7D0193684E7F09F2F1 /* TYPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9210D5003172C0303C9D475B26D40E56 /* TYPageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66B211D0CBF459AB6153D2E25CE08B77 /* TYPageViewControllerPluginTabBottomInset.h in Headers */ = {isa = PBXBuildFile; fileRef = CC4703AF832A68BB5E3F423C65584137 /* TYPageViewControllerPluginTabBottomInset.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F84B5A25A108FFF6C8E3DB49044588B /* UIImage+Compare.m */; };
-		6A0B1A0FA7A75C861B9D401D0E8CC95E /* MJRefreshGifHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = E8BB92985E304EC82D3EE828349DEBB3 /* MJRefreshGifHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6AE8ACBC01D0A483F8401AFC50DB59E4 /* TYPageViewControllerPluginHeaderScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 539993E3D00702053AF98F482EC7F74E /* TYPageViewControllerPluginHeaderScroll.m */; };
+		5F2620743D40C708C55B364CE0AD274C /* TYTabPagerBarCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 746BA6E524D6B9805EC793B2CDCB7A19 /* TYTabPagerBarCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		621B413DAEFE75991251ED378822527C /* MJRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 405FE66839F7C9A8DBC77F867E307CBE /* MJRefresh-dummy.m */; };
+		6298B1C2234864DA5ED3B5E6398B95AC /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7CBDDD82B56FA1D47B1DFEA3C88A2515 /* MJRefresh.bundle */; };
+		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = FB74F44BD1CAB4ADD6D761B3321D8BFF /* UIImage+Compare.m */; };
+		6A0B1A0FA7A75C861B9D401D0E8CC95E /* MJRefreshGifHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = BA2062F7B661E271B7E51F4289AFBCF6 /* MJRefreshGifHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ACC6B766ECE893D5F0788BBDE55C71B /* TYPageViewControllerPluginBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BE563E663DA56E08E2F13D95A4A58A4 /* TYPageViewControllerPluginBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6BB3BDA9976D9B0A6E4A4963B6CD5948 /* Pods-TYPageViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC931BCC68EF7EAA37D54C104F37224 /* Pods-TYPageViewController_Tests-dummy.m */; };
-		71F6D96E3AEAA07389F37E2C4B63C4F6 /* MJRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = CF429A2CDB96CFB8B5C33A7D88526DA8 /* MJRefreshHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F4A43248A8E4BCCC6DFE7DBA1D4C59 /* UIImage+Snapshot.m */; };
-		7942D242D079A5710A72B659A54D7E26 /* MJRefreshNormalHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = FC842E54233D821349BAD43B310D64BA /* MJRefreshNormalHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF8848ED42ACE3450D58EF9363A5050 /* XCTest.framework */; };
-		7EFDAA1642FA83DE777CFD086182D5A4 /* MJRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BC6FE1C8B9691C4C64C7B37C0847CB /* MJRefreshAutoGifFooter.m */; };
-		8069223DDD6D0F2E1A87D8E66966709B /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8AAA53A659D953EACAC6732B8F1648 /* MJRefreshConst.m */; };
-		81940DE5ADD85913AFBB2E2492CFFD43 /* TYPageViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B282FEEBDA9B848AA3F6302EC58F2 /* TYPageViewController-dummy.m */; };
-		82BFD77FFA959C12C4447D9C45F40456 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCBDC16ACC0B2E0FC4A41CCCE80896CC /* Foundation.framework */; };
-		841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3294635CA793FB021CFFAA237783724 /* UIKit.framework */; };
-		86575DB944435A2348F3AFC8897CB64E /* TYPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BBC6A0E07DA206EB37271432C098FF /* TYPageViewController.m */; };
-		896F9AA8945DB602DEB66C2B8374DD8E /* TYPageViewControllerPluginTabBottomInset.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD14F78CBB5A3460413BE4FBAFBF843 /* TYPageViewControllerPluginTabBottomInset.m */; };
-		8B855A73B75155FB2C0CB05B54FDDE0D /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B8C8E05FCDE5DF964DDC1661E63556 /* UIScrollView+MJRefresh.m */; };
-		8DC3FC2342EC2E944B3A3E83E2683130 /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AEE9B48FD0EF79D3572280933C4DA8 /* MJRefreshHeader.m */; };
-		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCBDC16ACC0B2E0FC4A41CCCE80896CC /* Foundation.framework */; };
-		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 839236D6314D39CCDBC99F55ACFD961D /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98DDA6F7BCDB4F45C068979982339C46 /* TYPageViewControllerPluginBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BE563E663DA56E08E2F13D95A4A58A4 /* TYPageViewControllerPluginBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99CECD267B74A3C178314AEB151A24C1 /* Pods-TYPageViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EE94981D22773ABE9430392AAF5C1A8 /* Pods-TYPageViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A2B6319AB05A45E2E963F50C3CA32C84 /* TYPageViewControllerPluginBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6887E1895A05A20B9F0A7A022E1FFA14 /* TYPageViewControllerPluginBase.m */; };
-		A2D9F9EFFDFE9C19DA842E826B06BCEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCBDC16ACC0B2E0FC4A41CCCE80896CC /* Foundation.framework */; };
-		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EB39397A706D153D971B82A2081A70 /* FBSnapshotTestController.m */; };
-		A5382D3EA98D2EB1AD9EDA5F2138F00D /* MJRefreshAutoNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 78BC06CAE4E7E5ED7E63B1101D1D7419 /* MJRefreshAutoNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A72D242BEF61E27D6C29092DF4666A4A /* MJRefreshComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 34333B4EC58799BF1B08354F552FB4B9 /* MJRefreshComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA4959949A290D4B8BE1E31A890D0C80 /* MJRefreshFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 58AAD05D41F6BBE92FAB441DC246FC8A /* MJRefreshFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B02D91E02099D3C6A2F988C766032176 /* MJRefreshBackFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = C5F28312984A611D8C06C902230D22A1 /* MJRefreshBackFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E144E5A2D577B4712DC27CE8B3DE0090 /* QuartzCore.framework */; };
-		B553F9B417D9142E61BD7E2C129200CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCBDC16ACC0B2E0FC4A41CCCE80896CC /* Foundation.framework */; };
-		B57D78FD4B5A5921DD0E687F14B22531 /* TYBasePageBarLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D6F852A277CCD0CDA5EE72622DE93A /* TYBasePageBarLayout.m */; };
-		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 897A207CDA0BA396B31064A5D1821ECA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA0711638621C2A47AABFF9E03546893 /* MJRefreshAutoStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 60926A9FDF5B4E23EB88A04CCB79A50B /* MJRefreshAutoStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 947439E39051F3206B1DFC21C07F10D9 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BDB33C3708110C6D755175D1F0A2A70B /* MJRefreshStateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = BE566E50A8E365053BB83FBFBA105164 /* MJRefreshStateHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C7D0F3FD4451C72D030CE3F63DCC2C /* FBSnapshotTestCase.m */; };
-		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 74A4AAD0F9C24171F491338057BC9D24 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C402833EEA8F0F918F3279CE544E9700 /* MJRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D97D99725F57D52E8844AED23661E5F /* MJRefresh.framework */; };
-		C5B0F32A2D58DA577FF9622C99687544 /* STCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4D6CB6E97F981FD887B15C0926B210 /* STCollectionView.m */; };
-		C8FA4D08AFD8AD64D2E8C0F7E6B0936E /* TYPageViewController+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 0279591E26A2CFE0B66601E608F842D2 /* TYPageViewController+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C977529ACB0D5885B7EC161AC894FFD9 /* TYTabPagerBarCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 746BA6E524D6B9805EC793B2CDCB7A19 /* TYTabPagerBarCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 697D50F915D9E266D96EE957EA92AEB6 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D02DEBC241C24DEEFDA13C355197A2FB /* UIScrollView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AF968E267C7AEA18D6656FB3EE1D53F /* UIScrollView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0A3948F6E319291A45CD15617225A14 /* SwipeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D3E0137918C210B3844AAB816B2F7E /* SwipeTableView.m */; };
-		D0E7D5B865722A25EC7D91B0FAD8A6CD /* MJRefreshAutoGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4250E423A4CB35ED999592CD5A2A4BD3 /* MJRefreshAutoGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D2343FE339780417613641AA22431F28 /* Pods-TYPageViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7B1AD0BEB1FF081C569E09C0E86A2D /* Pods-TYPageViewController_Example-dummy.m */; };
-		D46545D206874E3A223372C84F1EA73E /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7D0E1517CEF42C5ED550E57A8C7DAB /* MJRefreshAutoFooter.m */; };
-		D66E78D63935A98894E702D922AA8B91 /* MJRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 59791AE1F537FB2ECC88812B0B64E5E4 /* MJRefreshBackGifFooter.m */; };
-		D820DE54D6E9E5C85E0F9BF8A399E5EF /* MJRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7143E395A30170B8120AA5F8BF4C19A /* MJRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D918BD5CC7C76439AA1052C8C5CAD16B /* SwipeTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB73D8DF5C63EDC4E05FB001530E685D /* SwipeTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9F2BA4D713DAC2A85CB4A453240EA3E /* MJRefreshAutoFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 75A016BED7FEA9F67653FAC98EE33710 /* MJRefreshAutoFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA5E8F6F4BDC575648F7D03A09A103C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3294635CA793FB021CFFAA237783724 /* UIKit.framework */; };
-		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D5D70BE2759113EF955A3AA057FB49 /* FBSnapshotTestCasePlatform.m */; };
-		DD784CEA6CAFF1178FD441FE438185CC /* UIView+STFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A52AC50C746ABC242E2F5BAE33BC182 /* UIView+STFrame.m */; };
-		DE17E4C2C6EADE5D2D531268B1695405 /* UIView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ADC3CC4D246D63FF4A1F0BD387E2080 /* UIView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E19929F3E7EA04AC7B0E6BE53B9F04D0 /* TYTabPagerBarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4459D625C9A650D5E5A1FEB488A155C1 /* TYTabPagerBarCell.m */; };
-		E57312010AFB591EE37870F65E651EA6 /* MJRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = D92F7759C862773E60787198C86C9A4C /* MJRefreshNormalHeader.m */; };
-		E80DB5D9B2D35085282DF057BB540AFE /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 699D7EE5E8CE98283E3DA6A9D6141BEE /* MJRefreshBackFooter.m */; };
-		EA7B1F5E3776AFE8FB078FE6CAF8C06D /* STHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BABE56EA30E48046DD104EF460F223 /* STHeaderView.m */; };
-		EBEB72F80DCD10DEB82BF5F856D467FD /* MJRefreshConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 71EA4D06C513FAF2E0B3181BAF2E2E4F /* MJRefreshConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC2C98F0A5E1E772001E1157EF4A9578 /* TYBasePageBarLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = BFEDF3A785DF67E15580E51E1FC25BF7 /* TYBasePageBarLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EEC0B71D2CCECDF7ABD47F4DC72EDB8E /* TYPageViewControllerHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EA8991BFCAFCADB92900508295FCB6B /* TYPageViewControllerHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3F9D7D67FD30F6030576D219BB202E8 /* TYPageViewController+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = DB45A72D7703E615695E5F8AC90F9337 /* TYPageViewController+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4A57F7C1F8184A6DDEABB07FA6D7083 /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 7580172881829FB17A46E89A86206881 /* NSBundle+MJRefresh.m */; };
-		F68EA720B0ED1BF96CEBF07977A1C0A2 /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = F45942F29AB95BD0EF43DE4632D3EC41 /* MJRefreshComponent.m */; };
-		F69949686901C73AAC377BADB2108A4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCBDC16ACC0B2E0FC4A41CCCE80896CC /* Foundation.framework */; };
-		FB9C6242B11049E2F1062D04565E568D /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 192E27ED1797A9B5A57D935ECCFDBC03 /* UIScrollView+MJExtension.m */; };
-		FD31283E2A43955C5BA6FA9008EE8D7C /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FABA55015252C64C67E7E8EACEF7964 /* MJRefreshGifHeader.m */; };
+		6F619824ED68AC797B0204698CC98F2B /* TYPageViewControllerPluginHeaderScroll.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C3624B09D8998793845D3981F86FB2 /* TYPageViewControllerPluginHeaderScroll.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71F6D96E3AEAA07389F37E2C4B63C4F6 /* MJRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 77779D03459F18E9927588CBA622AAC7 /* MJRefreshHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A076411DC7BEBE58FD98B20BA359DA /* UIImage+Snapshot.m */; };
+		7942D242D079A5710A72B659A54D7E26 /* MJRefreshNormalHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 24021184965C00054015DD68732584E1 /* MJRefreshNormalHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A730411946EEC1F53718F0BCF507AB0 /* TYPageViewControllerHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EA8991BFCAFCADB92900508295FCB6B /* TYPageViewControllerHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A293D31AD80B7B0033072F7D57EC3DE /* XCTest.framework */; };
+		7EFDAA1642FA83DE777CFD086182D5A4 /* MJRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DD79043E9CB6EB45805FCE9FA58C1D /* MJRefreshAutoGifFooter.m */; };
+		8069223DDD6D0F2E1A87D8E66966709B /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C422C862D826ACB3E640FEF25AB7E /* MJRefreshConst.m */; };
+		82A1C3C5DBF5CE55723853EC0C9AA032 /* TYPageViewController+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 0279591E26A2CFE0B66601E608F842D2 /* TYPageViewController+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F4870BD241055FFDCA2958FF809B73D /* UIKit.framework */; };
+		8A08E1D409E12A12F301676F9D8509FD /* TYBasePageBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B286C0204CB44F145B82C1D46150FB45 /* TYBasePageBar.m */; };
+		8B855A73B75155FB2C0CB05B54FDDE0D /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 1718B5427BA146C0286734315D30112D /* UIScrollView+MJRefresh.m */; };
+		8D98074ED86D6619168D4486DD0C6A6A /* TYPageViewControllerPluginTabBottomInset.h in Headers */ = {isa = PBXBuildFile; fileRef = CC4703AF832A68BB5E3F423C65584137 /* TYPageViewControllerPluginTabBottomInset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DC3FC2342EC2E944B3A3E83E2683130 /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B1C876C402A63B46994F68D189D7B6 /* MJRefreshHeader.m */; };
+		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D757E99AE2411344EEC6E2AF35B4BB /* Foundation.framework */; };
+		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DECED940BD382DE2DA170D6260613E9 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2D9F9EFFDFE9C19DA842E826B06BCEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D757E99AE2411344EEC6E2AF35B4BB /* Foundation.framework */; };
+		A4B58AD661F62A79BF34AA7DAC966C0E /* TYPageViewControllerPluginHeaderScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 539993E3D00702053AF98F482EC7F74E /* TYPageViewControllerPluginHeaderScroll.m */; };
+		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 110217C2DBDF8FBBB2DE0C0BFBB3887F /* FBSnapshotTestController.m */; };
+		A5382D3EA98D2EB1AD9EDA5F2138F00D /* MJRefreshAutoNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = DC8B587FCEBAE96DA59E3CD2076577AD /* MJRefreshAutoNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A72D242BEF61E27D6C29092DF4666A4A /* MJRefreshComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 41AFC78BEA998BBFA7C4076289C66DEC /* MJRefreshComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA0842274A2F358D1EA05A37DC3BFFC9 /* TYPageViewController+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = DB45A72D7703E615695E5F8AC90F9337 /* TYPageViewController+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4959949A290D4B8BE1E31A890D0C80 /* MJRefreshFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 53ADB0ECAEF09258F32F85FA49F975CC /* MJRefreshFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B02D91E02099D3C6A2F988C766032176 /* MJRefreshBackFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = F61004F6782F937E467FEB3E40D02794 /* MJRefreshBackFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D12D1272D1B9E02642DC339D294EC7 /* QuartzCore.framework */; };
+		B44B5E66DABC6B80A5A819FFEF9060E6 /* TYPageBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 67A89E77B2ACCAACC4471264872C6F7E /* TYPageBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B717F58350344819B82B0691795B8B90 /* TYPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9210D5003172C0303C9D475B26D40E56 /* TYPageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62CBEDA6D73E54178EF857478A48EB3C /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA0711638621C2A47AABFF9E03546893 /* MJRefreshAutoStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = BB396926023CB42F62873FE84E5D3760 /* MJRefreshAutoStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB27C87070727BBA07D691F9BCACEDEA /* Pods-TYPageViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EE94981D22773ABE9430392AAF5C1A8 /* Pods-TYPageViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = C9E8633940316FDBE1F1F5963A9BD3FD /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BD2191E254ADCC0FCA1866D37FC219CC /* TYBasePageBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A4FF8F77255B8AD2DBE0CC3F60D4B18 /* TYBasePageBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDB33C3708110C6D755175D1F0A2A70B /* MJRefreshStateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = F92B8EE0F389B7033394B9546FE16D79 /* MJRefreshStateHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C04BB656A7B539104EC722F5005E68 /* FBSnapshotTestCase.m */; };
+		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = AFB40D53C7500B0E0B35624ACA19BE1C /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = CB3E35249F3199A77E520CD11DFA97A6 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CC4C6650394D92CE82C3133E7CF21BDC /* TYPageBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EA46B62AFB89EF8B7EC2B5D3BA23FD42 /* TYPageBar.m */; };
+		CF42F414218C5B3E2060B24527F5F5F0 /* TYPageViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E1EFEE194CE65BF749FE8D0C9ED572 /* TYPageViewController+Extension.m */; };
+		D02DEBC241C24DEEFDA13C355197A2FB /* UIScrollView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B3B96D91F1A4987FD61412C70BDAE389 /* UIScrollView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0E7D5B865722A25EC7D91B0FAD8A6CD /* MJRefreshAutoGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 12184217B73A0D63BB8B8D31D00F98C3 /* MJRefreshAutoGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D46545D206874E3A223372C84F1EA73E /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7D7AD3E1BDAB42F5E75F7C06D6BB55 /* MJRefreshAutoFooter.m */; };
+		D66E78D63935A98894E702D922AA8B91 /* MJRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EBAF5E02A2D262E4E42A6DDFF6BE7BE /* MJRefreshBackGifFooter.m */; };
+		D820DE54D6E9E5C85E0F9BF8A399E5EF /* MJRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F145B31814A2098722BEC1AB51B04033 /* MJRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9F2BA4D713DAC2A85CB4A453240EA3E /* MJRefreshAutoFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 35F70E171072E4B0C59D23C43F182E88 /* MJRefreshAutoFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = FD59E0455AD3A17AF64260D9F245B73C /* FBSnapshotTestCasePlatform.m */; };
+		DE17E4C2C6EADE5D2D531268B1695405 /* UIView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = F2DF5CD3F3E530A3BBCF5AC20948EBE4 /* UIView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2CEF0BC5F2430BBD759AA287A1F0311 /* TYPageViewControllerPluginTabBottomInset.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD14F78CBB5A3460413BE4FBAFBF843 /* TYPageViewControllerPluginTabBottomInset.m */; };
+		E3615B3B6D541196BD2239375D6D4324 /* TYTabPagerBarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4459D625C9A650D5E5A1FEB488A155C1 /* TYTabPagerBarCell.m */; };
+		E57312010AFB591EE37870F65E651EA6 /* MJRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A16F3A0D05D1D3D6FC9939079857C35 /* MJRefreshNormalHeader.m */; };
+		E80DB5D9B2D35085282DF057BB540AFE /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1134122BC435B8BFCDCB41F2C20E2D67 /* MJRefreshBackFooter.m */; };
+		E9E0DDCAB613C1DCEFA36A345F1E2698 /* TYPageViewControllerPluginBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6887E1895A05A20B9F0A7A022E1FFA14 /* TYPageViewControllerPluginBase.m */; };
+		EBEB72F80DCD10DEB82BF5F856D467FD /* MJRefreshConst.h in Headers */ = {isa = PBXBuildFile; fileRef = ED9C789CF2EB8972AF6F64FF5229B9B6 /* MJRefreshConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE3AC6414588979FAEE301D6C437A2B7 /* TYPageViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B282FEEBDA9B848AA3F6302EC58F2 /* TYPageViewController-dummy.m */; };
+		F4A57F7C1F8184A6DDEABB07FA6D7083 /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 46718DA670833A6D559F38E039B3D371 /* NSBundle+MJRefresh.m */; };
+		F4D456A1CD031EC8506C155DAA785E71 /* TYPageViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 439C7A1EA9E09BC1FB7E686BFF8F845F /* TYPageViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F68EA720B0ED1BF96CEBF07977A1C0A2 /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E000B6CE4F6477702E34A88934DFC2 /* MJRefreshComponent.m */; };
+		F69949686901C73AAC377BADB2108A4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D757E99AE2411344EEC6E2AF35B4BB /* Foundation.framework */; };
+		FB9C6242B11049E2F1062D04565E568D /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B221A12BDD6874D57E7176A3DDA97BF /* UIScrollView+MJExtension.m */; };
+		FD31283E2A43955C5BA6FA9008EE8D7C /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CF11F47D5CA165AD732D3F9BB62A46 /* MJRefreshGifHeader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		522F095A443116378E59F5102F50F678 /* PBXContainerItemProxy */ = {
+		0663FCA79C2B498E3C341877EE872C90 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1F0244171404D2D768546A9CA2D1A969;
-			remoteInfo = TYPageViewController;
-		};
-		578BCECA2F6CB8C1C0190BC31D3C6C47 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8713DE58B74B2FA30BC9C858F8C95117;
-			remoteInfo = SwipeTableView;
+			remoteGlobalIDString = E14A62900910444707A5504D25EC98DC;
+			remoteInfo = MJRefresh;
 		};
 		5B1022BB0FB0F8712A3213768E29F766 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -140,183 +120,152 @@
 			remoteGlobalIDString = 34CD2E3428AB802BACA62286FF5074B1;
 			remoteInfo = FBSnapshotTestCase;
 		};
-		96BA83E295D1ABA562A69BC09C4ADBF4 /* PBXContainerItemProxy */ = {
+		7B3BCA6BCC6D4488FDB7A5589A85DA2E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E14A62900910444707A5504D25EC98DC;
 			remoteInfo = MJRefresh;
 		};
-		A441D2FDDC95DDA4F15888E4A696D0B1 /* PBXContainerItemProxy */ = {
+		7B3DD8B98272BBA4F53D421916113247 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E14A62900910444707A5504D25EC98DC;
-			remoteInfo = MJRefresh;
-		};
-		E207D5F727AC93666AAF8C58CB749FD4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8713DE58B74B2FA30BC9C858F8C95117;
-			remoteInfo = SwipeTableView;
+			remoteGlobalIDString = 08903B1BEDB023591B58136B7940640B;
+			remoteInfo = TYPageViewController;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00AA10F3D0D3A7DA9EC053EDD980F8D9 /* MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefresh.h; path = MJRefresh/MJRefresh.h; sourceTree = "<group>"; };
-		01B26A6B41E49A8F0B94791CA8AAB862 /* MJRefreshStateHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshStateHeader.m; path = MJRefresh/Custom/Header/MJRefreshStateHeader.m; sourceTree = "<group>"; };
 		0279591E26A2CFE0B66601E608F842D2 /* TYPageViewController+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TYPageViewController+Extension.h"; sourceTree = "<group>"; };
 		03713B9FC1325245547B8D8E3B08EA5D /* Pods-TYPageViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TYPageViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		05D12D1272D1B9E02642DC339D294EC7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		09A6B227C9FF1D93D0B97B10F043A5C6 /* Pods-TYPageViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TYPageViewController_Example-resources.sh"; sourceTree = "<group>"; };
-		09D5D70BE2759113EF955A3AA057FB49 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		0B4AF751E7462BCD3219B49EC530585F /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		0C5AD71C2AEE7CDF6F3A2FD72FDF0CD6 /* MJRefreshBackStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackStateFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.h; sourceTree = "<group>"; };
 		0CD14F78CBB5A3460413BE4FBAFBF843 /* TYPageViewControllerPluginTabBottomInset.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TYPageViewControllerPluginTabBottomInset.m; sourceTree = "<group>"; };
-		0CF8848ED42ACE3450D58EF9363A5050 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0D972A86AB8318B6AE5B60D0E310E990 /* MJRefreshStateHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshStateHeader.m; path = MJRefresh/Custom/Header/MJRefreshStateHeader.m; sourceTree = "<group>"; };
 		0EA8991BFCAFCADB92900508295FCB6B /* TYPageViewControllerHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TYPageViewControllerHeader.h; sourceTree = "<group>"; };
-		0ECB8B54BA8B7A7B4E6A6B5B9A73E0D4 /* UIView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MJExtension.m"; path = "MJRefresh/UIView+MJExtension.m"; sourceTree = "<group>"; };
-		100C66C010392D266DF1C996C46DF1CE /* SwipeTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwipeTableView.h; path = SwipeTableView/SwipeTableView/SwipeTableView.h; sourceTree = "<group>"; };
-		11A98E035DB7A649F835948A5394902B /* MJRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJRefresh.xcconfig; sourceTree = "<group>"; };
+		110217C2DBDF8FBBB2DE0C0BFBB3887F /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		1134122BC435B8BFCDCB41F2C20E2D67 /* MJRefreshBackFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackFooter.m; path = MJRefresh/Base/MJRefreshBackFooter.m; sourceTree = "<group>"; };
+		12184217B73A0D63BB8B8D31D00F98C3 /* MJRefreshAutoGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoGifFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.h; sourceTree = "<group>"; };
 		1634917CB87E492ADD4ACFC0D522D9EC /* TYPageViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TYPageViewController-prefix.pch"; sourceTree = "<group>"; };
+		1718B5427BA146C0286734315D30112D /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJRefresh.m"; path = "MJRefresh/UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
+		17CF11F47D5CA165AD732D3F9BB62A46 /* MJRefreshGifHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshGifHeader.m; path = MJRefresh/Custom/Header/MJRefreshGifHeader.m; sourceTree = "<group>"; };
 		190B26757BF510FC3CBB6C7D680F09FE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		192E27ED1797A9B5A57D935ECCFDBC03 /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJExtension.m"; path = "MJRefresh/UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
 		196FBA06EB4B86EC1E514CF2232173EF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A0B282FEEBDA9B848AA3F6302EC58F2 /* TYPageViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TYPageViewController-dummy.m"; sourceTree = "<group>"; };
-		1AF968E267C7AEA18D6656FB3EE1D53F /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJExtension.h"; path = "MJRefresh/UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
+		1E5C422C862D826ACB3E640FEF25AB7E /* MJRefreshConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshConst.m; path = MJRefresh/MJRefreshConst.m; sourceTree = "<group>"; };
 		1EE94981D22773ABE9430392AAF5C1A8 /* Pods-TYPageViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TYPageViewController_Example-umbrella.h"; sourceTree = "<group>"; };
-		22BABE56EA30E48046DD104EF460F223 /* STHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STHeaderView.m; path = SwipeTableView/SwipeTableView/STHeaderView.m; sourceTree = "<group>"; };
-		22DCAA4B73DACE4C33903B1FEB89DF4F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28501F4A6268408E98CC71DBB9DFCAE7 /* NSBundle+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+MJRefresh.h"; path = "MJRefresh/NSBundle+MJRefresh.h"; sourceTree = "<group>"; };
-		2937ECF2845C5F0D6355D83EB3661DC1 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		24021184965C00054015DD68732584E1 /* MJRefreshNormalHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshNormalHeader.h; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.h; sourceTree = "<group>"; };
+		27451D4435D7D8F0014971D8A427D9F6 /* MJRefreshAutoStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoStateFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.m; sourceTree = "<group>"; };
 		29D6F852A277CCD0CDA5EE72622DE93A /* TYBasePageBarLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TYBasePageBarLayout.m; sourceTree = "<group>"; };
-		2C3F6C0DB6D2596536B35A4F89E7A961 /* MJRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoNormalFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
-		2D97D99725F57D52E8844AED23661E5F /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E122F516653397E2BB91E22D67F5122 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		34333B4EC58799BF1B08354F552FB4B9 /* MJRefreshComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshComponent.h; path = MJRefresh/Base/MJRefreshComponent.h; sourceTree = "<group>"; };
+		2DECED940BD382DE2DA170D6260613E9 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		34E1EFEE194CE65BF749FE8D0C9ED572 /* TYPageViewController+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TYPageViewController+Extension.m"; sourceTree = "<group>"; };
-		3530C27C90E29046913BC3DFB8D45625 /* MJRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-prefix.pch"; sourceTree = "<group>"; };
-		3ADC3CC4D246D63FF4A1F0BD387E2080 /* UIView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MJExtension.h"; path = "MJRefresh/UIView+MJExtension.h"; sourceTree = "<group>"; };
-		3F5586CFA328866D0A0807F608C360BC /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		3FABA55015252C64C67E7E8EACEF7964 /* MJRefreshGifHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshGifHeader.m; path = MJRefresh/Custom/Header/MJRefreshGifHeader.m; sourceTree = "<group>"; };
-		409FACC5C5C5978D47CF84F66599838D /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		35F70E171072E4B0C59D23C43F182E88 /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoFooter.h; path = MJRefresh/Base/MJRefreshAutoFooter.h; sourceTree = "<group>"; };
+		36E000B6CE4F6477702E34A88934DFC2 /* MJRefreshComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshComponent.m; path = MJRefresh/Base/MJRefreshComponent.m; sourceTree = "<group>"; };
+		405FE66839F7C9A8DBC77F867E307CBE /* MJRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJRefresh-dummy.m"; sourceTree = "<group>"; };
 		40A1BBF89182820885D77C2369869F1F /* TYPageViewControllerPluginTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TYPageViewControllerPluginTabBar.h; sourceTree = "<group>"; };
-		4250E423A4CB35ED999592CD5A2A4BD3 /* MJRefreshAutoGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoGifFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.h; sourceTree = "<group>"; };
+		41AFC78BEA998BBFA7C4076289C66DEC /* MJRefreshComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshComponent.h; path = MJRefresh/Base/MJRefreshComponent.h; sourceTree = "<group>"; };
+		438A9C7CCE40DFD75EF679343F7C3854 /* TYPageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TYPageViewController.framework; path = TYPageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4395687E670375860122388D791DCB2B /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		439C7A1EA9E09BC1FB7E686BFF8F845F /* TYPageViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TYPageViewController-umbrella.h"; sourceTree = "<group>"; };
-		439DA7A7A88D668D6FCE7B4194C7C361 /* MJRefreshAutoStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoStateFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.m; sourceTree = "<group>"; };
 		4459D625C9A650D5E5A1FEB488A155C1 /* TYTabPagerBarCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TYTabPagerBarCell.m; sourceTree = "<group>"; };
+		46718DA670833A6D559F38E039B3D371 /* NSBundle+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+MJRefresh.m"; path = "MJRefresh/NSBundle+MJRefresh.m"; sourceTree = "<group>"; };
 		48F0938A4949E4B0592D24FE95284EFF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4A19B4FD78A59830DA3A43967CB61796 /* STCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STCollectionView.h; path = SwipeTableView/SwipeTableView/STCollectionView.h; sourceTree = "<group>"; };
 		4A7B1AD0BEB1FF081C569E09C0E86A2D /* Pods-TYPageViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TYPageViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		4A8FA3FD6BDF3537EB9B467678E323C1 /* MJRefreshBackNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackNormalFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.m; sourceTree = "<group>"; };
+		51C6EA9575FE8422BC2084895603BB5A /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		52410EC3A74E8C9F90036214A1322C10 /* Pods-TYPageViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYPageViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5349CFF341CAB864306EBA71890F9C91 /* SwipeTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeTableView-prefix.pch"; sourceTree = "<group>"; };
 		539993E3D00702053AF98F482EC7F74E /* TYPageViewControllerPluginHeaderScroll.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TYPageViewControllerPluginHeaderScroll.m; sourceTree = "<group>"; };
-		58AAD05D41F6BBE92FAB441DC246FC8A /* MJRefreshFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshFooter.h; path = MJRefresh/Base/MJRefreshFooter.h; sourceTree = "<group>"; };
-		591B7960C2F14B4899EFB71D0DC8D434 /* Pods-TYPageViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TYPageViewController_Example.modulemap"; sourceTree = "<group>"; };
-		59791AE1F537FB2ECC88812B0B64E5E4 /* MJRefreshBackGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackGifFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.m; sourceTree = "<group>"; };
-		60926A9FDF5B4E23EB88A04CCB79A50B /* MJRefreshAutoStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoStateFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.h; sourceTree = "<group>"; };
+		53ADB0ECAEF09258F32F85FA49F975CC /* MJRefreshFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshFooter.h; path = MJRefresh/Base/MJRefreshFooter.h; sourceTree = "<group>"; };
+		591B7960C2F14B4899EFB71D0DC8D434 /* Pods-TYPageViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TYPageViewController_Example.modulemap"; sourceTree = "<group>"; };
+		5EBAF5E02A2D262E4E42A6DDFF6BE7BE /* MJRefreshBackGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackGifFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.m; sourceTree = "<group>"; };
+		62CBEDA6D73E54178EF857478A48EB3C /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		63BD3C3B22F0F13DB934349CB318F034 /* Pods-TYPageViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TYPageViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		64745971FC928991EAD93DD13C08775A /* MJRefreshBackStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackStateFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.h; sourceTree = "<group>"; };
 		67A89E77B2ACCAACC4471264872C6F7E /* TYPageBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TYPageBar.h; sourceTree = "<group>"; };
+		687C87830230747FFA6282F6F6B80E26 /* MJRefreshBackStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackStateFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.m; sourceTree = "<group>"; };
 		6887E1895A05A20B9F0A7A022E1FFA14 /* TYPageViewControllerPluginBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TYPageViewControllerPluginBase.m; sourceTree = "<group>"; };
-		697D50F915D9E266D96EE957EA92AEB6 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		699D7EE5E8CE98283E3DA6A9D6141BEE /* MJRefreshBackFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackFooter.m; path = MJRefresh/Base/MJRefreshBackFooter.m; sourceTree = "<group>"; };
-		69BC6FE1C8B9691C4C64C7B37C0847CB /* MJRefreshAutoGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoGifFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.m; sourceTree = "<group>"; };
+		68B6D45367C62C0E6010F77A367CF4CB /* MJRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoNormalFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
+		6A293D31AD80B7B0033072F7D57EC3DE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6A4FF8F77255B8AD2DBE0CC3F60D4B18 /* TYBasePageBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TYBasePageBar.h; sourceTree = "<group>"; };
-		70CD668E18B40DD8E211F10D22633EE3 /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		71EA4D06C513FAF2E0B3181BAF2E2E4F /* MJRefreshConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshConst.h; path = MJRefresh/MJRefreshConst.h; sourceTree = "<group>"; };
+		6DE2F593DE6FA823E89447951CA74235 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		7093819589A94C1FEDD83260B78D357B /* MJRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MJRefresh.modulemap; sourceTree = "<group>"; };
+		7119E1C4DCA513F40D2CDEC419AA41E3 /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		746BA6E524D6B9805EC793B2CDCB7A19 /* TYTabPagerBarCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TYTabPagerBarCell.h; sourceTree = "<group>"; };
-		74A4AAD0F9C24171F491338057BC9D24 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		7580172881829FB17A46E89A86206881 /* NSBundle+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+MJRefresh.m"; path = "MJRefresh/NSBundle+MJRefresh.m"; sourceTree = "<group>"; };
-		75A016BED7FEA9F67653FAC98EE33710 /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoFooter.h; path = MJRefresh/Base/MJRefreshAutoFooter.h; sourceTree = "<group>"; };
-		76B8C8E05FCDE5DF964DDC1661E63556 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJRefresh.m"; path = "MJRefresh/UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
-		78BC06CAE4E7E5ED7E63B1101D1D7419 /* MJRefreshAutoNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoNormalFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.h; sourceTree = "<group>"; };
-		793F3109ACE8D9DC2B143C2CB93D4ED3 /* MJRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MJRefresh.modulemap; sourceTree = "<group>"; };
-		80AADF70DD3AC308DCE2D54B7B5D6213 /* TYPageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TYPageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		81B1C7D75321AB5947680489EDC7D376 /* MJRefreshBackStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackStateFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.m; sourceTree = "<group>"; };
-		82FA6F8B274F91F142E958A03E4AB557 /* MJRefreshBackGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackGifFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.h; sourceTree = "<group>"; };
-		838BCC683ACA0360A8D7A2E6FD41F423 /* SwipeTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwipeTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		839236D6314D39CCDBC99F55ACFD961D /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		7502221F2D92BAF65630992ED28A2947 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		7641C96E2E3D6E40E6754B48649335B4 /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJRefresh.h"; path = "MJRefresh/UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
+		76491559126E0387E0D3CED0B6BA2E37 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		77779D03459F18E9927588CBA622AAC7 /* MJRefreshHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshHeader.h; path = MJRefresh/Base/MJRefreshHeader.h; sourceTree = "<group>"; };
+		7AFB1F75F5601343C009F59A2197939F /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJRefresh.framework; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CBDDD82B56FA1D47B1DFEA3C88A2515 /* MJRefresh.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MJRefresh.bundle; path = MJRefresh/MJRefresh.bundle; sourceTree = "<group>"; };
 		83C3624B09D8998793845D3981F86FB2 /* TYPageViewControllerPluginHeaderScroll.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TYPageViewControllerPluginHeaderScroll.h; sourceTree = "<group>"; };
-		85B852F60329E49C3F8BB351F6596985 /* SwipeTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeTableView.xcconfig; sourceTree = "<group>"; };
+		85DD79043E9CB6EB45805FCE9FA58C1D /* MJRefreshAutoGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoGifFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.m; sourceTree = "<group>"; };
 		86DD630B0C5E2D0ED879571C3DD38F15 /* TYPageViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TYPageViewController.xcconfig; sourceTree = "<group>"; };
-		897A207CDA0BA396B31064A5D1821ECA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		8A52AC50C746ABC242E2F5BAE33BC182 /* UIView+STFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+STFrame.m"; path = "SwipeTableView/SwipeTableView/UIView+STFrame.m"; sourceTree = "<group>"; };
-		8B8AAA53A659D953EACAC6732B8F1648 /* MJRefreshConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshConst.m; path = MJRefresh/MJRefreshConst.m; sourceTree = "<group>"; };
+		8B221A12BDD6874D57E7176A3DDA97BF /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJExtension.m"; path = "MJRefresh/UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
 		8BE563E663DA56E08E2F13D95A4A58A4 /* TYPageViewControllerPluginBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TYPageViewControllerPluginBase.h; sourceTree = "<group>"; };
 		8DC931BCC68EF7EAA37D54C104F37224 /* Pods-TYPageViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TYPageViewController_Tests-dummy.m"; sourceTree = "<group>"; };
-		8F84B5A25A108FFF6C8E3DB49044588B /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		90C767E6C3A711D5A2E40D85FA482AB0 /* SwipeTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwipeTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F4870BD241055FFDCA2958FF809B73D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		90B1C876C402A63B46994F68D189D7B6 /* MJRefreshHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshHeader.m; path = MJRefresh/Base/MJRefreshHeader.m; sourceTree = "<group>"; };
+		910D30220F5609589966FFC55E7445D3 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		9210D5003172C0303C9D475B26D40E56 /* TYPageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TYPageViewController.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		947439E39051F3206B1DFC21C07F10D9 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		95D3E0137918C210B3844AAB816B2F7E /* SwipeTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwipeTableView.m; path = SwipeTableView/SwipeTableView/SwipeTableView.m; sourceTree = "<group>"; };
-		981032887101293A4FF282116DDAC3A2 /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJRefresh.h"; path = "MJRefresh/UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		959BD7463C2369462A4732B373D5E4F4 /* MJRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-prefix.pch"; sourceTree = "<group>"; };
+		9A16F3A0D05D1D3D6FC9939079857C35 /* MJRefreshNormalHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshNormalHeader.m; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.m; sourceTree = "<group>"; };
+		9B7D7AD3E1BDAB42F5E75F7C06D6BB55 /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoFooter.m; path = MJRefresh/Base/MJRefreshAutoFooter.m; sourceTree = "<group>"; };
 		9DC14B4FB211986247A7DE1715D03C59 /* Pods-TYPageViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TYPageViewController_Tests-resources.sh"; sourceTree = "<group>"; };
-		9FB4D49B021DCD3A3E91EB6346CB14E9 /* Pods_TYPageViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYPageViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2A6B649C1BE4C47EF807D35867532E0 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		A3294635CA793FB021CFFAA237783724 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		A4CD9A30314B95D419BCAE9074862B84 /* UIView+STFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+STFrame.h"; path = "SwipeTableView/SwipeTableView/UIView+STFrame.h"; sourceTree = "<group>"; };
+		A1593D040962D4342663659069354CB2 /* MJRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJRefresh.xcconfig; sourceTree = "<group>"; };
+		A1B22B923AE1D5B50EF2CCF6EA24AF9A /* MJRefreshBackGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackGifFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.h; sourceTree = "<group>"; };
+		A2D757E99AE2411344EEC6E2AF35B4BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A747EA3FD18901B87939AAEF51329476 /* Pods_TYPageViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TYPageViewController_Example.framework; path = "Pods-TYPageViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A79F85039518629904921EC5D14408EF /* TYPageViewControllerPluginTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TYPageViewControllerPluginTabBar.m; sourceTree = "<group>"; };
-		AC2B1D855F44F7E3334D89C0F884A46F /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		ACA926BEC5323233CAB015A96BF2F149 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		ACC18FCA1736258E810BA18CE9102F26 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB8D2D32CE55327CD3B87AB51C7B3B4 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		AFB40D53C7500B0E0B35624ACA19BE1C /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		AFFA5755FF5C44F27DA992D4AAB0CCE8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B032371E99EAE573E7773DDE35E01805 /* Pods_TYPageViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TYPageViewController_Tests.framework; path = "Pods-TYPageViewController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B286C0204CB44F145B82C1D46150FB45 /* TYBasePageBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TYBasePageBar.m; sourceTree = "<group>"; };
-		B2C7D0F3FD4451C72D030CE3F63DCC2C /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		B3A656C4D60B1200A949D43CB909AD85 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3F4A43248A8E4BCCC6DFE7DBA1D4C59 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		B40BD522A7D34691B0360E06CAD137C2 /* MJRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJRefresh-dummy.m"; sourceTree = "<group>"; };
-		B9E3FC2168835C2CE4A3724A923506EB /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		B3B96D91F1A4987FD61412C70BDAE389 /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJExtension.h"; path = "MJRefresh/UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
+		BA2062F7B661E271B7E51F4289AFBCF6 /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshGifHeader.h; path = MJRefresh/Custom/Header/MJRefreshGifHeader.h; sourceTree = "<group>"; };
 		BA6ADDFCA045D509E63BE72465AE8E6E /* Pods-TYPageViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYPageViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BB396926023CB42F62873FE84E5D3760 /* MJRefreshAutoStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoStateFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.h; sourceTree = "<group>"; };
 		BC6B54385F85069D6F97F35850093037 /* Pods-TYPageViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TYPageViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
-		BE566E50A8E365053BB83FBFBA105164 /* MJRefreshStateHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshStateHeader.h; path = MJRefresh/Custom/Header/MJRefreshStateHeader.h; sourceTree = "<group>"; };
 		BFEDF3A785DF67E15580E51E1FC25BF7 /* TYBasePageBarLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TYBasePageBarLayout.h; sourceTree = "<group>"; };
-		C5E32C189183C9521604ACF9F5A94B99 /* MJRefresh.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MJRefresh.bundle; path = MJRefresh/MJRefresh.bundle; sourceTree = "<group>"; };
-		C5F28312984A611D8C06C902230D22A1 /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackFooter.h; path = MJRefresh/Base/MJRefreshBackFooter.h; sourceTree = "<group>"; };
 		C7DA611F4BF36756C1997CF3A1D84B81 /* Pods-TYPageViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TYPageViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		CC009DEF3B4538893AD905AA2CDB79A4 /* Pods_TYPageViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYPageViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C905E2F5648719B33AB2179C4654C589 /* NSBundle+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+MJRefresh.h"; path = "MJRefresh/NSBundle+MJRefresh.h"; sourceTree = "<group>"; };
+		C9E8633940316FDBE1F1F5963A9BD3FD /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		CB3E35249F3199A77E520CD11DFA97A6 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		CC4703AF832A68BB5E3F423C65584137 /* TYPageViewControllerPluginTabBottomInset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TYPageViewControllerPluginTabBottomInset.h; sourceTree = "<group>"; };
-		CE61362F89738ECBE63E2624E9F14AD7 /* STHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STHeaderView.h; path = SwipeTableView/SwipeTableView/STHeaderView.h; sourceTree = "<group>"; };
-		CF429A2CDB96CFB8B5C33A7D88526DA8 /* MJRefreshHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshHeader.h; path = MJRefresh/Base/MJRefreshHeader.h; sourceTree = "<group>"; };
-		D2AEE9B48FD0EF79D3572280933C4DA8 /* MJRefreshHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshHeader.m; path = MJRefresh/Base/MJRefreshHeader.m; sourceTree = "<group>"; };
+		CD67AC0F30AA1FEAB8FFB313A8796937 /* MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefresh.h; path = MJRefresh/MJRefresh.h; sourceTree = "<group>"; };
 		D2BBC6A0E07DA206EB37271432C098FF /* TYPageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TYPageViewController.m; sourceTree = "<group>"; };
-		D4E8EEE629DD9ECD581273CB47837A10 /* MJRefreshFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshFooter.m; path = MJRefresh/Base/MJRefreshFooter.m; sourceTree = "<group>"; };
-		D52AAA11C87610867B4F2694B4CEA2C3 /* TYPageViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TYPageViewController.modulemap; sourceTree = "<group>"; };
-		D7143E395A30170B8120AA5F8BF4C19A /* MJRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-umbrella.h"; sourceTree = "<group>"; };
-		D92F7759C862773E60787198C86C9A4C /* MJRefreshNormalHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshNormalHeader.m; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.m; sourceTree = "<group>"; };
+		D3A076411DC7BEBE58FD98B20BA359DA /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		D4FDCE4EA20BE70921E84056850380D7 /* MJRefreshFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshFooter.m; path = MJRefresh/Base/MJRefreshFooter.m; sourceTree = "<group>"; };
+		D52AAA11C87610867B4F2694B4CEA2C3 /* TYPageViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TYPageViewController.modulemap; sourceTree = "<group>"; };
+		D5A611D9AD4AA986FA7D3B7C8E29737A /* MJRefreshBackNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackNormalFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.h; sourceTree = "<group>"; };
+		D6E9F6F4FF6E07F425A8A63A98178311 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		DB45A72D7703E615695E5F8AC90F9337 /* TYPageViewController+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TYPageViewController+Private.h"; sourceTree = "<group>"; };
-		DB7D0E1517CEF42C5ED550E57A8C7DAB /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoFooter.m; path = MJRefresh/Base/MJRefreshAutoFooter.m; sourceTree = "<group>"; };
-		DCBDC16ACC0B2E0FC4A41CCCE80896CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DE033EC3D16D115D2C69A4B76983A3EF /* Pods-TYPageViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TYPageViewController_Tests.modulemap"; sourceTree = "<group>"; };
-		E144E5A2D577B4712DC27CE8B3DE0090 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		E151E9504389B1E2962B64060D19EEDE /* MJRefreshBackNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackNormalFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.h; sourceTree = "<group>"; };
+		DC8B587FCEBAE96DA59E3CD2076577AD /* MJRefreshAutoNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoNormalFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.h; sourceTree = "<group>"; };
+		DE033EC3D16D115D2C69A4B76983A3EF /* Pods-TYPageViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TYPageViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		DF7AEDA911078349CFF795BF1197052C /* UIView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MJExtension.m"; path = "MJRefresh/UIView+MJExtension.m"; sourceTree = "<group>"; };
 		E1B2CABBCC01696CA12D1A68A39DD99A /* Pods-TYPageViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TYPageViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		E8BB92985E304EC82D3EE828349DEBB3 /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshGifHeader.h; path = MJRefresh/Custom/Header/MJRefreshGifHeader.h; sourceTree = "<group>"; };
+		E2C04BB656A7B539104EC722F5005E68 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		E79CC8AB5669D01B51235F45A11CD0CF /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA46B62AFB89EF8B7EC2B5D3BA23FD42 /* TYPageBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TYPageBar.m; sourceTree = "<group>"; };
-		EA4D6CB6E97F981FD887B15C0926B210 /* STCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STCollectionView.m; path = SwipeTableView/SwipeTableView/STCollectionView.m; sourceTree = "<group>"; };
+		EB5FB6ADFD71EF7CEC0D6658B1831E44 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		EC3611826E57CF686045555357AC83C2 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		ECA7DA178BE1E01E21D964B7674FB6C5 /* Pods-TYPageViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TYPageViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ED9C789CF2EB8972AF6F64FF5229B9B6 /* MJRefreshConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshConst.h; path = MJRefresh/MJRefreshConst.h; sourceTree = "<group>"; };
+		F145B31814A2098722BEC1AB51B04033 /* MJRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-umbrella.h"; sourceTree = "<group>"; };
+		F1EB76FF7FD7C1E32AF37D6AEB8C9BFC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1F18673D15E55B7160EA134C4AF7B2B /* Pods-TYPageViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TYPageViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F2DF5CD3F3E530A3BBCF5AC20948EBE4 /* UIView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MJExtension.h"; path = "MJRefresh/UIView+MJExtension.h"; sourceTree = "<group>"; };
 		F37E7F02453C8E97B80EAAF6578BD568 /* Pods-TYPageViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYPageViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F45942F29AB95BD0EF43DE4632D3EC41 /* MJRefreshComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshComponent.m; path = MJRefresh/Base/MJRefreshComponent.m; sourceTree = "<group>"; };
+		F61004F6782F937E467FEB3E40D02794 /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackFooter.h; path = MJRefresh/Base/MJRefreshBackFooter.h; sourceTree = "<group>"; };
 		F6D638F594DCE618B6361E32ADA48E5A /* Pods-TYPageViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYPageViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F7962E919C7813C719D7AEF632B6048D /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		F7EB39397A706D153D971B82A2081A70 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		F90AAAAC4E1755C000C13965FED116F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA3596CC532E4909F59B748C93E1C7CE /* MJRefreshBackNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackNormalFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.m; sourceTree = "<group>"; };
-		FB73D8DF5C63EDC4E05FB001530E685D /* SwipeTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeTableView-umbrella.h"; sourceTree = "<group>"; };
-		FBDF36399415E405A296D7A273C826A1 /* SwipeTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwipeTableView.modulemap; sourceTree = "<group>"; };
-		FC842E54233D821349BAD43B310D64BA /* MJRefreshNormalHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshNormalHeader.h; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.h; sourceTree = "<group>"; };
-		FD809E59E17621B0BB9C28AFABF04CB2 /* SwipeTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwipeTableView-dummy.m"; sourceTree = "<group>"; };
+		F92B8EE0F389B7033394B9546FE16D79 /* MJRefreshStateHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshStateHeader.h; path = MJRefresh/Custom/Header/MJRefreshStateHeader.h; sourceTree = "<group>"; };
+		FB74F44BD1CAB4ADD6D761B3321D8BFF /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		FD59E0455AD3A17AF64260D9F245B73C /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		128200473BB28735EAAA9764406FE479 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B553F9B417D9142E61BD7E2C129200CB /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1AAD91176E5F5F9AD062AD678F6746E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -336,15 +285,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		66A88484FB98874E06A1C84C37056B08 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				38903E201E3D802286414FE7EC3E1B45 /* Foundation.framework in Frameworks */,
-				DA5E8F6F4BDC575648F7D03A09A103C7 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6A78C3AA3BB320920F6D158A70320CB6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -353,13 +293,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C9F9D395A055DB4A1C2355943D0F91B /* Frameworks */ = {
+		80441BB10A7E49C89E5307D4EC2D9251 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82BFD77FFA959C12C4447D9C45F40456 /* Foundation.framework in Frameworks */,
-				C402833EEA8F0F918F3279CE544E9700 /* MJRefresh.framework in Frameworks */,
-				63DE99522F4FEDAF015AEEC57431B1CE /* SwipeTableView.framework in Frameworks */,
+				251ABEA3B399B3B7D6918BB05C2C9F09 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		872F76FA00CDE67866527D7FD12D19A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CD45DB8445AD38D14645687846C376D /* Foundation.framework in Frameworks */,
+				1757B876B635B398EE06D2A28AF8B9EB /* MJRefresh.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,20 +327,73 @@
 			path = "Example/Pods/Target Support Files/TYPageViewController";
 			sourceTree = "<group>";
 		};
-		20FB171501DA88E1CAEE8834559B5B3B /* SwipeTableView */ = {
+		01CB00FBFD7BBDECF2F7CBD21357D790 /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
-				4A19B4FD78A59830DA3A43967CB61796 /* STCollectionView.h */,
-				EA4D6CB6E97F981FD887B15C0926B210 /* STCollectionView.m */,
-				CE61362F89738ECBE63E2624E9F14AD7 /* STHeaderView.h */,
-				22BABE56EA30E48046DD104EF460F223 /* STHeaderView.m */,
-				100C66C010392D266DF1C996C46DF1CE /* SwipeTableView.h */,
-				95D3E0137918C210B3844AAB816B2F7E /* SwipeTableView.m */,
-				A4CD9A30314B95D419BCAE9074862B84 /* UIView+STFrame.h */,
-				8A52AC50C746ABC242E2F5BAE33BC182 /* UIView+STFrame.m */,
-				D4CEA11F082F0C90EADA10EE198591F2 /* Support Files */,
+				C0CCA97A29C621CA095B6A7D2A0F1FA6 /* Core */,
+				2414876F4AA241AEB8D0045FB4E5196E /* Support Files */,
+				2A21FCDF524CECCD6CDFA70B01B5E950 /* SwiftSupport */,
 			);
-			path = SwipeTableView;
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		099F13CC6CB47E270D64A9FB1138528E /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				CD67AC0F30AA1FEAB8FFB313A8796937 /* MJRefresh.h */,
+				35F70E171072E4B0C59D23C43F182E88 /* MJRefreshAutoFooter.h */,
+				9B7D7AD3E1BDAB42F5E75F7C06D6BB55 /* MJRefreshAutoFooter.m */,
+				12184217B73A0D63BB8B8D31D00F98C3 /* MJRefreshAutoGifFooter.h */,
+				85DD79043E9CB6EB45805FCE9FA58C1D /* MJRefreshAutoGifFooter.m */,
+				DC8B587FCEBAE96DA59E3CD2076577AD /* MJRefreshAutoNormalFooter.h */,
+				68B6D45367C62C0E6010F77A367CF4CB /* MJRefreshAutoNormalFooter.m */,
+				BB396926023CB42F62873FE84E5D3760 /* MJRefreshAutoStateFooter.h */,
+				27451D4435D7D8F0014971D8A427D9F6 /* MJRefreshAutoStateFooter.m */,
+				F61004F6782F937E467FEB3E40D02794 /* MJRefreshBackFooter.h */,
+				1134122BC435B8BFCDCB41F2C20E2D67 /* MJRefreshBackFooter.m */,
+				A1B22B923AE1D5B50EF2CCF6EA24AF9A /* MJRefreshBackGifFooter.h */,
+				5EBAF5E02A2D262E4E42A6DDFF6BE7BE /* MJRefreshBackGifFooter.m */,
+				D5A611D9AD4AA986FA7D3B7C8E29737A /* MJRefreshBackNormalFooter.h */,
+				4A8FA3FD6BDF3537EB9B467678E323C1 /* MJRefreshBackNormalFooter.m */,
+				64745971FC928991EAD93DD13C08775A /* MJRefreshBackStateFooter.h */,
+				687C87830230747FFA6282F6F6B80E26 /* MJRefreshBackStateFooter.m */,
+				41AFC78BEA998BBFA7C4076289C66DEC /* MJRefreshComponent.h */,
+				36E000B6CE4F6477702E34A88934DFC2 /* MJRefreshComponent.m */,
+				ED9C789CF2EB8972AF6F64FF5229B9B6 /* MJRefreshConst.h */,
+				1E5C422C862D826ACB3E640FEF25AB7E /* MJRefreshConst.m */,
+				53ADB0ECAEF09258F32F85FA49F975CC /* MJRefreshFooter.h */,
+				D4FDCE4EA20BE70921E84056850380D7 /* MJRefreshFooter.m */,
+				BA2062F7B661E271B7E51F4289AFBCF6 /* MJRefreshGifHeader.h */,
+				17CF11F47D5CA165AD732D3F9BB62A46 /* MJRefreshGifHeader.m */,
+				77779D03459F18E9927588CBA622AAC7 /* MJRefreshHeader.h */,
+				90B1C876C402A63B46994F68D189D7B6 /* MJRefreshHeader.m */,
+				24021184965C00054015DD68732584E1 /* MJRefreshNormalHeader.h */,
+				9A16F3A0D05D1D3D6FC9939079857C35 /* MJRefreshNormalHeader.m */,
+				F92B8EE0F389B7033394B9546FE16D79 /* MJRefreshStateHeader.h */,
+				0D972A86AB8318B6AE5B60D0E310E990 /* MJRefreshStateHeader.m */,
+				C905E2F5648719B33AB2179C4654C589 /* NSBundle+MJRefresh.h */,
+				46718DA670833A6D559F38E039B3D371 /* NSBundle+MJRefresh.m */,
+				B3B96D91F1A4987FD61412C70BDAE389 /* UIScrollView+MJExtension.h */,
+				8B221A12BDD6874D57E7176A3DDA97BF /* UIScrollView+MJExtension.m */,
+				7641C96E2E3D6E40E6754B48649335B4 /* UIScrollView+MJRefresh.h */,
+				1718B5427BA146C0286734315D30112D /* UIScrollView+MJRefresh.m */,
+				F2DF5CD3F3E530A3BBCF5AC20948EBE4 /* UIView+MJExtension.h */,
+				DF7AEDA911078349CFF795BF1197052C /* UIView+MJExtension.m */,
+				F4665B6CAB8FC72E5CA60A22BD794BE9 /* Resources */,
+				6F160E484E83FB776C7B50EFA77D2250 /* Support Files */,
+			);
+			name = MJRefresh;
+			path = MJRefresh;
+			sourceTree = "<group>";
+		};
+		0A4AF9B0534CEEA4CD2E74F37459946B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01CB00FBFD7BBDECF2F7CBD21357D790 /* FBSnapshotTestCase */,
+				099F13CC6CB47E270D64A9FB1138528E /* MJRefresh */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		21A130CFE299AABEDC42946AFEA4A028 /* Pods-TYPageViewController_Example */ = {
@@ -414,27 +414,35 @@
 			path = "Target Support Files/Pods-TYPageViewController_Example";
 			sourceTree = "<group>";
 		};
-		24A2927DDD44B650D04E6C29BE257AF6 /* FBSnapshotTestCase */ = {
+		2414876F4AA241AEB8D0045FB4E5196E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B026F0BD48F8FC4E47BBFC6E70303017 /* Core */,
-				FFB556097DBF64317F56C789B61FBBB5 /* Support Files */,
-				97B1F26503ECB7FB991025BE24A6710A /* SwiftSupport */,
+				51C6EA9575FE8422BC2084895603BB5A /* FBSnapshotTestCase.modulemap */,
+				910D30220F5609589966FFC55E7445D3 /* FBSnapshotTestCase.xcconfig */,
+				EC3611826E57CF686045555357AC83C2 /* FBSnapshotTestCase-dummy.m */,
+				6DE2F593DE6FA823E89447951CA74235 /* FBSnapshotTestCase-prefix.pch */,
+				62CBEDA6D73E54178EF857478A48EB3C /* FBSnapshotTestCase-umbrella.h */,
+				F1EB76FF7FD7C1E32AF37D6AEB8C9BFC /* Info.plist */,
 			);
-			path = FBSnapshotTestCase;
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
-		2B55501DE91950372596E09EEA3592B9 /* Products */ = {
+		2A21FCDF524CECCD6CDFA70B01B5E950 /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
-				B3A656C4D60B1200A949D43CB909AD85 /* FBSnapshotTestCase.framework */,
-				70CD668E18B40DD8E211F10D22633EE3 /* MJRefresh.framework */,
-				9FB4D49B021DCD3A3E91EB6346CB14E9 /* Pods_TYPageViewController_Example.framework */,
-				CC009DEF3B4538893AD905AA2CDB79A4 /* Pods_TYPageViewController_Tests.framework */,
-				838BCC683ACA0360A8D7A2E6FD41F423 /* SwipeTableView.framework */,
-				80AADF70DD3AC308DCE2D54B7B5D6213 /* TYPageViewController.framework */,
+				4395687E670375860122388D791DCB2B /* SwiftSupport.swift */,
 			);
-			name = Products;
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		2D163766D1F0F563758191504DF0841F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7119E1C4DCA513F40D2CDEC419AA41E3 /* MJRefresh.framework */,
+				82FA5E06AB07E5645D2DEA84A1946901 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		2DC6E42A59461D1A65F2895A9CB72718 /* Targets Support Files */ = {
@@ -456,6 +464,18 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		4614C842BF8952C0B597F3C83428D163 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E79CC8AB5669D01B51235F45A11CD0CF /* FBSnapshotTestCase.framework */,
+				7AFB1F75F5601343C009F59A2197939F /* MJRefresh.framework */,
+				A747EA3FD18901B87939AAEF51329476 /* Pods_TYPageViewController_Example.framework */,
+				B032371E99EAE573E7773DDE35E01805 /* Pods_TYPageViewController_Tests.framework */,
+				438A9C7CCE40DFD75EF679343F7C3854 /* TYPageViewController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		48F353187BCCBB4E62748AD7778BBCDF /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -464,15 +484,18 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		5ABFE72348DD3BA9BA8AB0C40403DB91 /* iOS */ = {
+		6F160E484E83FB776C7B50EFA77D2250 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DCBDC16ACC0B2E0FC4A41CCCE80896CC /* Foundation.framework */,
-				E144E5A2D577B4712DC27CE8B3DE0090 /* QuartzCore.framework */,
-				A3294635CA793FB021CFFAA237783724 /* UIKit.framework */,
-				0CF8848ED42ACE3450D58EF9363A5050 /* XCTest.framework */,
+				AFFA5755FF5C44F27DA992D4AAB0CCE8 /* Info.plist */,
+				7093819589A94C1FEDD83260B78D357B /* MJRefresh.modulemap */,
+				A1593D040962D4342663659069354CB2 /* MJRefresh.xcconfig */,
+				405FE66839F7C9A8DBC77F867E307CBE /* MJRefresh-dummy.m */,
+				959BD7463C2369462A4732B373D5E4F4 /* MJRefresh-prefix.pch */,
+				F145B31814A2098722BEC1AB51B04033 /* MJRefresh-umbrella.h */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "../Target Support Files/MJRefresh";
 			sourceTree = "<group>";
 		};
 		75793E40336A54BB76E4A191D71BA39E /* .. */ = {
@@ -490,9 +513,9 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				48F353187BCCBB4E62748AD7778BBCDF /* Development Pods */,
-				CD738875E847CEB3C4947A62D9C37591 /* Frameworks */,
-				882DB1518B8B7945176CDE0DE2C6C1A5 /* Pods */,
-				2B55501DE91950372596E09EEA3592B9 /* Products */,
+				2D163766D1F0F563758191504DF0841F /* Frameworks */,
+				0A4AF9B0534CEEA4CD2E74F37459946B /* Pods */,
+				4614C842BF8952C0B597F3C83428D163 /* Products */,
 				2DC6E42A59461D1A65F2895A9CB72718 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -533,138 +556,46 @@
 				CC4703AF832A68BB5E3F423C65584137 /* TYPageViewControllerPluginTabBottomInset.h */,
 				0CD14F78CBB5A3460413BE4FBAFBF843 /* TYPageViewControllerPluginTabBottomInset.m */,
 			);
+			name = TYPageController;
 			path = TYPageController;
 			sourceTree = "<group>";
 		};
-		882DB1518B8B7945176CDE0DE2C6C1A5 /* Pods */ = {
+		82FA5E06AB07E5645D2DEA84A1946901 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				24A2927DDD44B650D04E6C29BE257AF6 /* FBSnapshotTestCase */,
-				CCB17259D3EB3ABE99C136E7F57F97F7 /* MJRefresh */,
-				20FB171501DA88E1CAEE8834559B5B3B /* SwipeTableView */,
+				A2D757E99AE2411344EEC6E2AF35B4BB /* Foundation.framework */,
+				05D12D1272D1B9E02642DC339D294EC7 /* QuartzCore.framework */,
+				8F4870BD241055FFDCA2958FF809B73D /* UIKit.framework */,
+				6A293D31AD80B7B0033072F7D57EC3DE /* XCTest.framework */,
 			);
-			name = Pods;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		97B1F26503ECB7FB991025BE24A6710A /* SwiftSupport */ = {
+		C0CCA97A29C621CA095B6A7D2A0F1FA6 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				F7962E919C7813C719D7AEF632B6048D /* SwiftSupport.swift */,
-			);
-			name = SwiftSupport;
-			sourceTree = "<group>";
-		};
-		B026F0BD48F8FC4E47BBFC6E70303017 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				839236D6314D39CCDBC99F55ACFD961D /* FBSnapshotTestCase.h */,
-				B2C7D0F3FD4451C72D030CE3F63DCC2C /* FBSnapshotTestCase.m */,
-				74A4AAD0F9C24171F491338057BC9D24 /* FBSnapshotTestCasePlatform.h */,
-				09D5D70BE2759113EF955A3AA057FB49 /* FBSnapshotTestCasePlatform.m */,
-				409FACC5C5C5978D47CF84F66599838D /* FBSnapshotTestController.h */,
-				F7EB39397A706D153D971B82A2081A70 /* FBSnapshotTestController.m */,
-				947439E39051F3206B1DFC21C07F10D9 /* UIApplication+StrictKeyWindow.h */,
-				2E122F516653397E2BB91E22D67F5122 /* UIApplication+StrictKeyWindow.m */,
-				697D50F915D9E266D96EE957EA92AEB6 /* UIImage+Compare.h */,
-				8F84B5A25A108FFF6C8E3DB49044588B /* UIImage+Compare.m */,
-				2937ECF2845C5F0D6355D83EB3661DC1 /* UIImage+Diff.h */,
-				AC2B1D855F44F7E3334D89C0F884A46F /* UIImage+Diff.m */,
-				3F5586CFA328866D0A0807F608C360BC /* UIImage+Snapshot.h */,
-				B3F4A43248A8E4BCCC6DFE7DBA1D4C59 /* UIImage+Snapshot.m */,
+				2DECED940BD382DE2DA170D6260613E9 /* FBSnapshotTestCase.h */,
+				E2C04BB656A7B539104EC722F5005E68 /* FBSnapshotTestCase.m */,
+				AFB40D53C7500B0E0B35624ACA19BE1C /* FBSnapshotTestCasePlatform.h */,
+				FD59E0455AD3A17AF64260D9F245B73C /* FBSnapshotTestCasePlatform.m */,
+				ABB8D2D32CE55327CD3B87AB51C7B3B4 /* FBSnapshotTestController.h */,
+				110217C2DBDF8FBBB2DE0C0BFBB3887F /* FBSnapshotTestController.m */,
+				C9E8633940316FDBE1F1F5963A9BD3FD /* UIApplication+StrictKeyWindow.h */,
+				D6E9F6F4FF6E07F425A8A63A98178311 /* UIApplication+StrictKeyWindow.m */,
+				CB3E35249F3199A77E520CD11DFA97A6 /* UIImage+Compare.h */,
+				FB74F44BD1CAB4ADD6D761B3321D8BFF /* UIImage+Compare.m */,
+				EB5FB6ADFD71EF7CEC0D6658B1831E44 /* UIImage+Diff.h */,
+				7502221F2D92BAF65630992ED28A2947 /* UIImage+Diff.m */,
+				76491559126E0387E0D3CED0B6BA2E37 /* UIImage+Snapshot.h */,
+				D3A076411DC7BEBE58FD98B20BA359DA /* UIImage+Snapshot.m */,
 			);
 			name = Core;
 			sourceTree = "<group>";
 		};
-		CCB17259D3EB3ABE99C136E7F57F97F7 /* MJRefresh */ = {
+		F4665B6CAB8FC72E5CA60A22BD794BE9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				00AA10F3D0D3A7DA9EC053EDD980F8D9 /* MJRefresh.h */,
-				75A016BED7FEA9F67653FAC98EE33710 /* MJRefreshAutoFooter.h */,
-				DB7D0E1517CEF42C5ED550E57A8C7DAB /* MJRefreshAutoFooter.m */,
-				4250E423A4CB35ED999592CD5A2A4BD3 /* MJRefreshAutoGifFooter.h */,
-				69BC6FE1C8B9691C4C64C7B37C0847CB /* MJRefreshAutoGifFooter.m */,
-				78BC06CAE4E7E5ED7E63B1101D1D7419 /* MJRefreshAutoNormalFooter.h */,
-				2C3F6C0DB6D2596536B35A4F89E7A961 /* MJRefreshAutoNormalFooter.m */,
-				60926A9FDF5B4E23EB88A04CCB79A50B /* MJRefreshAutoStateFooter.h */,
-				439DA7A7A88D668D6FCE7B4194C7C361 /* MJRefreshAutoStateFooter.m */,
-				C5F28312984A611D8C06C902230D22A1 /* MJRefreshBackFooter.h */,
-				699D7EE5E8CE98283E3DA6A9D6141BEE /* MJRefreshBackFooter.m */,
-				82FA6F8B274F91F142E958A03E4AB557 /* MJRefreshBackGifFooter.h */,
-				59791AE1F537FB2ECC88812B0B64E5E4 /* MJRefreshBackGifFooter.m */,
-				E151E9504389B1E2962B64060D19EEDE /* MJRefreshBackNormalFooter.h */,
-				FA3596CC532E4909F59B748C93E1C7CE /* MJRefreshBackNormalFooter.m */,
-				0C5AD71C2AEE7CDF6F3A2FD72FDF0CD6 /* MJRefreshBackStateFooter.h */,
-				81B1C7D75321AB5947680489EDC7D376 /* MJRefreshBackStateFooter.m */,
-				34333B4EC58799BF1B08354F552FB4B9 /* MJRefreshComponent.h */,
-				F45942F29AB95BD0EF43DE4632D3EC41 /* MJRefreshComponent.m */,
-				71EA4D06C513FAF2E0B3181BAF2E2E4F /* MJRefreshConst.h */,
-				8B8AAA53A659D953EACAC6732B8F1648 /* MJRefreshConst.m */,
-				58AAD05D41F6BBE92FAB441DC246FC8A /* MJRefreshFooter.h */,
-				D4E8EEE629DD9ECD581273CB47837A10 /* MJRefreshFooter.m */,
-				E8BB92985E304EC82D3EE828349DEBB3 /* MJRefreshGifHeader.h */,
-				3FABA55015252C64C67E7E8EACEF7964 /* MJRefreshGifHeader.m */,
-				CF429A2CDB96CFB8B5C33A7D88526DA8 /* MJRefreshHeader.h */,
-				D2AEE9B48FD0EF79D3572280933C4DA8 /* MJRefreshHeader.m */,
-				FC842E54233D821349BAD43B310D64BA /* MJRefreshNormalHeader.h */,
-				D92F7759C862773E60787198C86C9A4C /* MJRefreshNormalHeader.m */,
-				BE566E50A8E365053BB83FBFBA105164 /* MJRefreshStateHeader.h */,
-				01B26A6B41E49A8F0B94791CA8AAB862 /* MJRefreshStateHeader.m */,
-				28501F4A6268408E98CC71DBB9DFCAE7 /* NSBundle+MJRefresh.h */,
-				7580172881829FB17A46E89A86206881 /* NSBundle+MJRefresh.m */,
-				1AF968E267C7AEA18D6656FB3EE1D53F /* UIScrollView+MJExtension.h */,
-				192E27ED1797A9B5A57D935ECCFDBC03 /* UIScrollView+MJExtension.m */,
-				981032887101293A4FF282116DDAC3A2 /* UIScrollView+MJRefresh.h */,
-				76B8C8E05FCDE5DF964DDC1661E63556 /* UIScrollView+MJRefresh.m */,
-				3ADC3CC4D246D63FF4A1F0BD387E2080 /* UIView+MJExtension.h */,
-				0ECB8B54BA8B7A7B4E6A6B5B9A73E0D4 /* UIView+MJExtension.m */,
-				F492E13E38631C7982C3880E1A4D8FE4 /* Resources */,
-				F158D94D677901FD280D5EAB1795BEC7 /* Support Files */,
-			);
-			path = MJRefresh;
-			sourceTree = "<group>";
-		};
-		CD738875E847CEB3C4947A62D9C37591 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				2D97D99725F57D52E8844AED23661E5F /* MJRefresh.framework */,
-				90C767E6C3A711D5A2E40D85FA482AB0 /* SwipeTableView.framework */,
-				5ABFE72348DD3BA9BA8AB0C40403DB91 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D4CEA11F082F0C90EADA10EE198591F2 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				ACC18FCA1736258E810BA18CE9102F26 /* Info.plist */,
-				FBDF36399415E405A296D7A273C826A1 /* SwipeTableView.modulemap */,
-				85B852F60329E49C3F8BB351F6596985 /* SwipeTableView.xcconfig */,
-				FD809E59E17621B0BB9C28AFABF04CB2 /* SwipeTableView-dummy.m */,
-				5349CFF341CAB864306EBA71890F9C91 /* SwipeTableView-prefix.pch */,
-				FB73D8DF5C63EDC4E05FB001530E685D /* SwipeTableView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SwipeTableView";
-			sourceTree = "<group>";
-		};
-		F158D94D677901FD280D5EAB1795BEC7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				22DCAA4B73DACE4C33903B1FEB89DF4F /* Info.plist */,
-				793F3109ACE8D9DC2B143C2CB93D4ED3 /* MJRefresh.modulemap */,
-				11A98E035DB7A649F835948A5394902B /* MJRefresh.xcconfig */,
-				B40BD522A7D34691B0360E06CAD137C2 /* MJRefresh-dummy.m */,
-				3530C27C90E29046913BC3DFB8D45625 /* MJRefresh-prefix.pch */,
-				D7143E395A30170B8120AA5F8BF4C19A /* MJRefresh-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/MJRefresh";
-			sourceTree = "<group>";
-		};
-		F492E13E38631C7982C3880E1A4D8FE4 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				C5E32C189183C9521604ACF9F5A94B99 /* MJRefresh.bundle */,
+				7CBDDD82B56FA1D47B1DFEA3C88A2515 /* MJRefresh.bundle */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -681,21 +612,8 @@
 				746BA6E524D6B9805EC793B2CDCB7A19 /* TYTabPagerBarCell.h */,
 				4459D625C9A650D5E5A1FEB488A155C1 /* TYTabPagerBarCell.m */,
 			);
+			name = TYPageBar;
 			path = TYPageBar;
-			sourceTree = "<group>";
-		};
-		FFB556097DBF64317F56C789B61FBBB5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0B4AF751E7462BCD3219B49EC530585F /* FBSnapshotTestCase.modulemap */,
-				A2A6B649C1BE4C47EF807D35867532E0 /* FBSnapshotTestCase.xcconfig */,
-				ACA926BEC5323233CAB015A96BF2F149 /* FBSnapshotTestCase-dummy.m */,
-				B9E3FC2168835C2CE4A3724A923506EB /* FBSnapshotTestCase-prefix.pch */,
-				897A207CDA0BA396B31064A5D1821ECA /* FBSnapshotTestCase-umbrella.h */,
-				F90AAAAC4E1755C000C13965FED116F1 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -729,23 +647,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20D8E863E753258AB0A9AC4A765B019B /* Headers */ = {
+		68BFAB9FD24E225688DB80EF910A92E8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				317D8F3269E59F85361D22D3FCFE7AFB /* TYBasePageBar.h in Headers */,
-				EC2C98F0A5E1E772001E1157EF4A9578 /* TYBasePageBarLayout.h in Headers */,
-				1D6C54A95D24A2E51036D9C4824BCB83 /* TYPageBar.h in Headers */,
-				C8FA4D08AFD8AD64D2E8C0F7E6B0936E /* TYPageViewController+Extension.h in Headers */,
-				F3F9D7D67FD30F6030576D219BB202E8 /* TYPageViewController+Private.h in Headers */,
-				01A1ECD9C4BCDE4134A181C5D3F4E3E0 /* TYPageViewController-umbrella.h in Headers */,
-				63DEF6924B3FAF7D0193684E7F09F2F1 /* TYPageViewController.h in Headers */,
-				EEC0B71D2CCECDF7ABD47F4DC72EDB8E /* TYPageViewControllerHeader.h in Headers */,
-				98DDA6F7BCDB4F45C068979982339C46 /* TYPageViewControllerPluginBase.h in Headers */,
-				08C26D025C3466F68534F4BA950D3F9F /* TYPageViewControllerPluginHeaderScroll.h in Headers */,
-				1EC3F8D86195D9B2AE537373986804D1 /* TYPageViewControllerPluginTabBar.h in Headers */,
-				66B211D0CBF459AB6153D2E25CE08B77 /* TYPageViewControllerPluginTabBottomInset.h in Headers */,
-				C977529ACB0D5885B7EC161AC894FFD9 /* TYTabPagerBarCell.h in Headers */,
+				BD2191E254ADCC0FCA1866D37FC219CC /* TYBasePageBar.h in Headers */,
+				443926D3A53648B1A1E8C43B12C7FE59 /* TYBasePageBarLayout.h in Headers */,
+				B44B5E66DABC6B80A5A819FFEF9060E6 /* TYPageBar.h in Headers */,
+				82A1C3C5DBF5CE55723853EC0C9AA032 /* TYPageViewController+Extension.h in Headers */,
+				AA0842274A2F358D1EA05A37DC3BFFC9 /* TYPageViewController+Private.h in Headers */,
+				F4D456A1CD031EC8506C155DAA785E71 /* TYPageViewController-umbrella.h in Headers */,
+				B717F58350344819B82B0691795B8B90 /* TYPageViewController.h in Headers */,
+				7A730411946EEC1F53718F0BCF507AB0 /* TYPageViewControllerHeader.h in Headers */,
+				6ACC6B766ECE893D5F0788BBDE55C71B /* TYPageViewControllerPluginBase.h in Headers */,
+				6F619824ED68AC797B0204698CC98F2B /* TYPageViewControllerPluginHeaderScroll.h in Headers */,
+				58A10A895379B2AF0B6CA4955FD57471 /* TYPageViewControllerPluginTabBar.h in Headers */,
+				8D98074ED86D6619168D4486DD0C6A6A /* TYPageViewControllerPluginTabBottomInset.h in Headers */,
+				5F2620743D40C708C55B364CE0AD274C /* TYTabPagerBarCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -754,18 +672,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				59DACA8BD6EB0FEC574199059F97E027 /* Pods-TYPageViewController_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9598ADBAB8BF4E482C8A57ACAFCCF9F5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				005599FFF40A1FC6C0A7D636B926AF94 /* STCollectionView.h in Headers */,
-				294904B7AFC25D5DD3A3E8B6B1D5B8AA /* STHeaderView.h in Headers */,
-				D918BD5CC7C76439AA1052C8C5CAD16B /* SwipeTableView-umbrella.h in Headers */,
-				355C2EB75683D03053E75E050F3096F5 /* SwipeTableView.h in Headers */,
-				307C4F7C53E413417FE1F5A722D0A9CD /* UIView+STFrame.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -784,34 +690,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2EC378D35B0AE0B57E41E1363AD560E /* Headers */ = {
+		F749E6984F7C26CCB8794D86CF0960FC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99CECD267B74A3C178314AEB151A24C1 /* Pods-TYPageViewController_Example-umbrella.h in Headers */,
+				BB27C87070727BBA07D691F9BCACEDEA /* Pods-TYPageViewController_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1F0244171404D2D768546A9CA2D1A969 /* TYPageViewController */ = {
+		08903B1BEDB023591B58136B7940640B /* TYPageViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28E3A66BB7C996B7E0DB6487B08F6CA6 /* Build configuration list for PBXNativeTarget "TYPageViewController" */;
+			buildConfigurationList = 5883EDF1CCEBF60DD5FC415EE724E70A /* Build configuration list for PBXNativeTarget "TYPageViewController" */;
 			buildPhases = (
-				39A11AEF9F56CBC646478A31B1B3D578 /* Sources */,
-				9C9F9D395A055DB4A1C2355943D0F91B /* Frameworks */,
-				20D8E863E753258AB0A9AC4A765B019B /* Headers */,
+				862C38A379781EB99CD45F3E265E90C1 /* Sources */,
+				872F76FA00CDE67866527D7FD12D19A9 /* Frameworks */,
+				68BFAB9FD24E225688DB80EF910A92E8 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FACD26C17EA92EA9BC9600873BE50757 /* PBXTargetDependency */,
-				8DD3D2A56B7CE1CA0A558A087045379B /* PBXTargetDependency */,
+				41F2E2C53402C2C5311204263C731AA7 /* PBXTargetDependency */,
 			);
 			name = TYPageViewController;
 			productName = TYPageViewController;
-			productReference = 80AADF70DD3AC308DCE2D54B7B5D6213 /* TYPageViewController.framework */;
+			productReference = 438A9C7CCE40DFD75EF679343F7C3854 /* TYPageViewController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */ = {
@@ -828,24 +733,26 @@
 			);
 			name = FBSnapshotTestCase;
 			productName = FBSnapshotTestCase;
-			productReference = B3A656C4D60B1200A949D43CB909AD85 /* FBSnapshotTestCase.framework */;
+			productReference = E79CC8AB5669D01B51235F45A11CD0CF /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8713DE58B74B2FA30BC9C858F8C95117 /* SwipeTableView */ = {
+		74A7C9F4E58BB08F299572A60D248156 /* Pods-TYPageViewController_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4862857D58ED884BCD587C24A018BC26 /* Build configuration list for PBXNativeTarget "SwipeTableView" */;
+			buildConfigurationList = 23FE1382727E71A924F49B472E1AFB7D /* Build configuration list for PBXNativeTarget "Pods-TYPageViewController_Example" */;
 			buildPhases = (
-				11096FE311B7341DB59FAE98F8172CDA /* Sources */,
-				66A88484FB98874E06A1C84C37056B08 /* Frameworks */,
-				9598ADBAB8BF4E482C8A57ACAFCCF9F5 /* Headers */,
+				7B4B8FA840148CD987657B662AFB458E /* Sources */,
+				80441BB10A7E49C89E5307D4EC2D9251 /* Frameworks */,
+				F749E6984F7C26CCB8794D86CF0960FC /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5542E770FB0EA29122CACE88615BE554 /* PBXTargetDependency */,
+				169991C410A800DBD73F8E2BB31A753C /* PBXTargetDependency */,
 			);
-			name = SwipeTableView;
-			productName = SwipeTableView;
-			productReference = 838BCC683ACA0360A8D7A2E6FD41F423 /* SwipeTableView.framework */;
+			name = "Pods-TYPageViewController_Example";
+			productName = "Pods-TYPageViewController_Example";
+			productReference = A747EA3FD18901B87939AAEF51329476 /* Pods_TYPageViewController_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DBBB34BB490E05BC1A710D0A2A89D030 /* Pods-TYPageViewController_Tests */ = {
@@ -863,7 +770,7 @@
 			);
 			name = "Pods-TYPageViewController_Tests";
 			productName = "Pods-TYPageViewController_Tests";
-			productReference = CC009DEF3B4538893AD905AA2CDB79A4 /* Pods_TYPageViewController_Tests.framework */;
+			productReference = B032371E99EAE573E7773DDE35E01805 /* Pods_TYPageViewController_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E14A62900910444707A5504D25EC98DC /* MJRefresh */ = {
@@ -881,27 +788,7 @@
 			);
 			name = MJRefresh;
 			productName = MJRefresh;
-			productReference = 70CD668E18B40DD8E211F10D22633EE3 /* MJRefresh.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F7EF7F1F8B1E507362B12475CBF3F956 /* Pods-TYPageViewController_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BE1C66C8029662B0BFBBB077D05472C5 /* Build configuration list for PBXNativeTarget "Pods-TYPageViewController_Example" */;
-			buildPhases = (
-				89E6126D873FB0E61E6CA0837934787B /* Sources */,
-				128200473BB28735EAAA9764406FE479 /* Frameworks */,
-				D2EC378D35B0AE0B57E41E1363AD560E /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				313820951C7AC35C20DB3A37A95AD3B9 /* PBXTargetDependency */,
-				9B4C010D7845C770542F2EA649503E4F /* PBXTargetDependency */,
-				A83416F56418614A93538D61E7952680 /* PBXTargetDependency */,
-			);
-			name = "Pods-TYPageViewController_Example";
-			productName = "Pods-TYPageViewController_Example";
-			productReference = 9FB4D49B021DCD3A3E91EB6346CB14E9 /* Pods_TYPageViewController_Example.framework */;
+			productReference = 7AFB1F75F5601343C009F59A2197939F /* MJRefresh.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -911,7 +798,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -921,16 +808,15 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 2B55501DE91950372596E09EEA3592B9 /* Products */;
+			productRefGroup = 4614C842BF8952C0B597F3C83428D163 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */,
 				E14A62900910444707A5504D25EC98DC /* MJRefresh */,
-				F7EF7F1F8B1E507362B12475CBF3F956 /* Pods-TYPageViewController_Example */,
+				74A7C9F4E58BB08F299572A60D248156 /* Pods-TYPageViewController_Example */,
 				DBBB34BB490E05BC1A710D0A2A89D030 /* Pods-TYPageViewController_Tests */,
-				8713DE58B74B2FA30BC9C858F8C95117 /* SwipeTableView */,
-				1F0244171404D2D768546A9CA2D1A969 /* TYPageViewController */,
+				08903B1BEDB023591B58136B7940640B /* TYPageViewController */,
 			);
 		};
 /* End PBXProject section */
@@ -947,36 +833,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		11096FE311B7341DB59FAE98F8172CDA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C5B0F32A2D58DA577FF9622C99687544 /* STCollectionView.m in Sources */,
-				EA7B1F5E3776AFE8FB078FE6CAF8C06D /* STHeaderView.m in Sources */,
-				1EC73FC64D28825AC3B5BF213E8C380E /* SwipeTableView-dummy.m in Sources */,
-				D0A3948F6E319291A45CD15617225A14 /* SwipeTableView.m in Sources */,
-				DD784CEA6CAFF1178FD441FE438185CC /* UIView+STFrame.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		39A11AEF9F56CBC646478A31B1B3D578 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0F406A9A1976D8160D0BFD9AAD696977 /* TYBasePageBar.m in Sources */,
-				B57D78FD4B5A5921DD0E687F14B22531 /* TYBasePageBarLayout.m in Sources */,
-				22D659EA9FDE5AF373F46D0FD7EF68B4 /* TYPageBar.m in Sources */,
-				0C1EAB5BF5C4D2B737F3DBDCD7086343 /* TYPageViewController+Extension.m in Sources */,
-				81940DE5ADD85913AFBB2E2492CFFD43 /* TYPageViewController-dummy.m in Sources */,
-				86575DB944435A2348F3AFC8897CB64E /* TYPageViewController.m in Sources */,
-				A2B6319AB05A45E2E963F50C3CA32C84 /* TYPageViewControllerPluginBase.m in Sources */,
-				6AE8ACBC01D0A483F8401AFC50DB59E4 /* TYPageViewControllerPluginHeaderScroll.m in Sources */,
-				61E717A47B22679D27B7167F91E32A58 /* TYPageViewControllerPluginTabBar.m in Sources */,
-				896F9AA8945DB602DEB66C2B8374DD8E /* TYPageViewControllerPluginTabBottomInset.m in Sources */,
-				E19929F3E7EA04AC7B0E6BE53B9F04D0 /* TYTabPagerBarCell.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		609328F54A03FEB659BA236D7584D063 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1012,11 +868,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		89E6126D873FB0E61E6CA0837934787B /* Sources */ = {
+		7B4B8FA840148CD987657B662AFB458E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2343FE339780417613641AA22431F28 /* Pods-TYPageViewController_Example-dummy.m in Sources */,
+				298A62874A9E42A253B4B59A6AD55854 /* Pods-TYPageViewController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		862C38A379781EB99CD45F3E265E90C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A08E1D409E12A12F301676F9D8509FD /* TYBasePageBar.m in Sources */,
+				2DB4CB73CE01FC3FBFE4DE5EC382344F /* TYBasePageBarLayout.m in Sources */,
+				CC4C6650394D92CE82C3133E7CF21BDC /* TYPageBar.m in Sources */,
+				CF42F414218C5B3E2060B24527F5F5F0 /* TYPageViewController+Extension.m in Sources */,
+				EE3AC6414588979FAEE301D6C437A2B7 /* TYPageViewController-dummy.m in Sources */,
+				42EF4DEB3477517E47E75EE3F58BD02D /* TYPageViewController.m in Sources */,
+				E9E0DDCAB613C1DCEFA36A345F1E2698 /* TYPageViewControllerPluginBase.m in Sources */,
+				A4B58AD661F62A79BF34AA7DAC966C0E /* TYPageViewControllerPluginHeaderScroll.m in Sources */,
+				3D63A105075AFFE737CF7D5C2D058A35 /* TYPageViewControllerPluginTabBar.m in Sources */,
+				E2CEF0BC5F2430BBD759AA287A1F0311 /* TYPageViewControllerPluginTabBottomInset.m in Sources */,
+				E3615B3B6D541196BD2239375D6D4324 /* TYTabPagerBarCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1039,11 +913,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		313820951C7AC35C20DB3A37A95AD3B9 /* PBXTargetDependency */ = {
+		169991C410A800DBD73F8E2BB31A753C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TYPageViewController;
+			target = 08903B1BEDB023591B58136B7940640B /* TYPageViewController */;
+			targetProxy = 7B3DD8B98272BBA4F53D421916113247 /* PBXContainerItemProxy */;
+		};
+		41F2E2C53402C2C5311204263C731AA7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MJRefresh;
 			target = E14A62900910444707A5504D25EC98DC /* MJRefresh */;
-			targetProxy = 96BA83E295D1ABA562A69BC09C4ADBF4 /* PBXContainerItemProxy */;
+			targetProxy = 7B3BCA6BCC6D4488FDB7A5589A85DA2E /* PBXContainerItemProxy */;
 		};
 		4B5EA3E9E1231D2A16A8550F07360EAD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1051,38 +931,48 @@
 			target = 34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */;
 			targetProxy = 5B1022BB0FB0F8712A3213768E29F766 /* PBXContainerItemProxy */;
 		};
-		8DD3D2A56B7CE1CA0A558A087045379B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwipeTableView;
-			target = 8713DE58B74B2FA30BC9C858F8C95117 /* SwipeTableView */;
-			targetProxy = 578BCECA2F6CB8C1C0190BC31D3C6C47 /* PBXContainerItemProxy */;
-		};
-		9B4C010D7845C770542F2EA649503E4F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwipeTableView;
-			target = 8713DE58B74B2FA30BC9C858F8C95117 /* SwipeTableView */;
-			targetProxy = E207D5F727AC93666AAF8C58CB749FD4 /* PBXContainerItemProxy */;
-		};
-		A83416F56418614A93538D61E7952680 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TYPageViewController;
-			target = 1F0244171404D2D768546A9CA2D1A969 /* TYPageViewController */;
-			targetProxy = 522F095A443116378E59F5102F50F678 /* PBXContainerItemProxy */;
-		};
-		FACD26C17EA92EA9BC9600873BE50757 /* PBXTargetDependency */ = {
+		5542E770FB0EA29122CACE88615BE554 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MJRefresh;
 			target = E14A62900910444707A5504D25EC98DC /* MJRefresh */;
-			targetProxy = A441D2FDDC95DDA4F15888E4A696D0B1 /* PBXContainerItemProxy */;
+			targetProxy = 0663FCA79C2B498E3C341877EE872C90 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		08976AEFAAB10EA93006539ED73C2875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86DD630B0C5E2D0ED879571C3DD38F15 /* TYPageViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TYPageViewController/TYPageViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TYPageViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TYPageViewController/TYPageViewController.modulemap";
+				PRODUCT_NAME = TYPageViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		18493D47DB5B9A446A60E1FAB50CC1FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 52410EC3A74E8C9F90036214A1322C10 /* Pods-TYPageViewController_Tests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1113,41 +1003,10 @@
 			};
 			name = Release;
 		};
-		1A882D092D4BD96E8FE5DCC98AB37024 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86DD630B0C5E2D0ED879571C3DD38F15 /* TYPageViewController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TYPageViewController/TYPageViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TYPageViewController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TYPageViewController/TYPageViewController.modulemap";
-				PRODUCT_NAME = TYPageViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		3230FD00FD4E5FDA638E5A701FFD8BB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F37E7F02453C8E97B80EAAF6578BD568 /* Pods-TYPageViewController_Tests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1238,36 +1097,7 @@
 			};
 			name = Debug;
 		};
-		5975A3F92C6D120AE5161EB5815E4F2A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86DD630B0C5E2D0ED879571C3DD38F15 /* TYPageViewController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TYPageViewController/TYPageViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TYPageViewController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TYPageViewController/TYPageViewController.modulemap";
-				PRODUCT_NAME = TYPageViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5F1A15FFDB9CAD944DAE3D6DEC2C999A /* Release */ = {
+		596D74403E2CB371A6D18771935C6926 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BA6ADDFCA045D509E63BE72465AE8E6E /* Pods-TYPageViewController_Example.release.xcconfig */;
 			buildSettings = {
@@ -1302,7 +1132,7 @@
 		};
 		5F2CFEE529779FE2A827EE980116EFF5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11A98E035DB7A649F835948A5394902B /* MJRefresh.xcconfig */;
+			baseConfigurationReference = A1593D040962D4342663659069354CB2 /* MJRefresh.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1330,9 +1160,9 @@
 			};
 			name = Release;
 		};
-		6C9B009E8DEE46F156017E4E4EF26954 /* Debug */ = {
+		648D1C6A5BC53D9DDEFC6DE374495917 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6D638F594DCE618B6361E32ADA48E5A /* Pods-TYPageViewController_Example.debug.xcconfig */;
+			baseConfigurationReference = 86DD630B0C5E2D0ED879571C3DD38F15 /* TYPageViewController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1343,24 +1173,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TYPageViewController_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/TYPageViewController/TYPageViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TYPageViewController/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TYPageViewController_Example/Pods-TYPageViewController_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TYPageViewController_Example;
+				MODULEMAP_FILE = "Target Support Files/TYPageViewController/TYPageViewController.modulemap";
+				PRODUCT_NAME = TYPageViewController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1413,14 +1241,45 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
+		847E718113E59C62EE563A9626FFE9D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6D638F594DCE618B6361E32ADA48E5A /* Pods-TYPageViewController_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TYPageViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TYPageViewController_Example/Pods-TYPageViewController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TYPageViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		8A56F1B7DAFFF774A25DDB238282188E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11A98E035DB7A649F835948A5394902B /* MJRefresh.xcconfig */;
+			baseConfigurationReference = A1593D040962D4342663659069354CB2 /* MJRefresh.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1449,7 +1308,7 @@
 		};
 		B2E52370F534DFE0FF7634F754F4F618 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2A6B649C1BE4C47EF807D35867532E0 /* FBSnapshotTestCase.xcconfig */;
+			baseConfigurationReference = 910D30220F5609589966FFC55E7445D3 /* FBSnapshotTestCase.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1478,39 +1337,9 @@
 			};
 			name = Release;
 		};
-		BD91DD32291B4E4E71F294F9EA09EB85 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85B852F60329E49C3F8BB351F6596985 /* SwipeTableView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwipeTableView/SwipeTableView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwipeTableView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwipeTableView/SwipeTableView.modulemap";
-				PRODUCT_NAME = SwipeTableView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		CEA992D818C17C13A97E42D0734BF7D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2A6B649C1BE4C47EF807D35867532E0 /* FBSnapshotTestCase.xcconfig */;
+			baseConfigurationReference = 910D30220F5609589966FFC55E7445D3 /* FBSnapshotTestCase.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1538,35 +1367,6 @@
 			};
 			name = Debug;
 		};
-		F302B8B689C22A411E8039E27AF2D4C2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85B852F60329E49C3F8BB351F6596985 /* SwipeTableView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwipeTableView/SwipeTableView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwipeTableView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwipeTableView/SwipeTableView.modulemap";
-				PRODUCT_NAME = SwipeTableView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1579,11 +1379,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28E3A66BB7C996B7E0DB6487B08F6CA6 /* Build configuration list for PBXNativeTarget "TYPageViewController" */ = {
+		23FE1382727E71A924F49B472E1AFB7D /* Build configuration list for PBXNativeTarget "Pods-TYPageViewController_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5975A3F92C6D120AE5161EB5815E4F2A /* Debug */,
-				1A882D092D4BD96E8FE5DCC98AB37024 /* Release */,
+				847E718113E59C62EE563A9626FFE9D7 /* Debug */,
+				596D74403E2CB371A6D18771935C6926 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1597,11 +1397,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4862857D58ED884BCD587C24A018BC26 /* Build configuration list for PBXNativeTarget "SwipeTableView" */ = {
+		5883EDF1CCEBF60DD5FC415EE724E70A /* Build configuration list for PBXNativeTarget "TYPageViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F302B8B689C22A411E8039E27AF2D4C2 /* Debug */,
-				BD91DD32291B4E4E71F294F9EA09EB85 /* Release */,
+				08976AEFAAB10EA93006539ED73C2875 /* Debug */,
+				648D1C6A5BC53D9DDEFC6DE374495917 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1611,15 +1411,6 @@
 			buildConfigurations = (
 				3230FD00FD4E5FDA638E5A701FFD8BB8 /* Debug */,
 				18493D47DB5B9A446A60E1FAB50CC1FF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BE1C66C8029662B0BFBBB077D05472C5 /* Build configuration list for PBXNativeTarget "Pods-TYPageViewController_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6C9B009E8DEE46F156017E4E4EF26954 /* Debug */,
-				5F1A15FFDB9CAD944DAE3D6DEC2C999A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

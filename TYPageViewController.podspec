@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TYPageViewController'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'TYPageViewController.'
 
 # This description is used to generate tags and improve search results.
@@ -39,5 +39,5 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'MJRefresh', '=3.1.15'
-   s.dependency 'SwipeTableView'
+#s.dependency 'SwipeTableView'
 end
