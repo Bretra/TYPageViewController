@@ -8,6 +8,6 @@
 
 #import <TYPageViewController/TYPageViewController.h>
 
-@interface TYRecommetViewController : TYPageViewController
+@interface TYRecommetViewController : UIViewController
 
 @end

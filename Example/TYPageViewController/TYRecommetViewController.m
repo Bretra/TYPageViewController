@@ -7,9 +7,11 @@
 //
 
 #import "TYRecommetViewController.h"
+#import <MJRefresh/MJRefresh.h>
 
 @interface TYRecommetViewController ()<UITableViewDataSource>
-
+/** tableView */
+@property (nonatomic , weak) UITableView *tableView;
 @end
 
 @implementation TYRecommetViewController
@@ -19,11 +21,28 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-
-    UITableView *tab = [[UITableView alloc] initWithFrame:self.view.bounds style:0];
-    tab.dataSource = self;
-    [self.view addSubview:tab];
+    self.view.backgroundColor = [UIColor whiteColor];
+    UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:0];
+    tableView.dataSource = self;
+    [self.view addSubview:tableView];
+    self.tableView = tableView;
+    
+    //初始化下拉刷新
+    MJRefreshNormalHeader *header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(loadData)];
+    header.lastUpdatedTimeLabel.hidden = YES;
+    header.stateLabel.hidden = YES;
+    self.tableView.mj_header = header;
 }
+
+#pragma mark - loadData
+- (void)loadData {
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self.tableView reloadData];
+        [self.tableView.mj_header endRefreshing];
+    });
+}
+
+
 
 #pragma mark - UITableViewDataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -37,6 +56,7 @@
     if (!cell) {
         cell = [[UITableViewCell alloc] initWithStyle:0 reuseIdentifier:ID];
     }
+    cell.textLabel.text = [NSString stringWithFormat:@"%zd" , indexPath.row];
     return cell;
     
 }

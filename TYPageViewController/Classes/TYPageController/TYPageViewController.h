@@ -21,6 +21,10 @@
 - (void)pageViewController:(TYPageViewController *)pageViewController scrollViewWillScrollFromIndex:(NSInteger)index;
 /// did 滚动到某个index
 - (void)pageViewController:(TYPageViewController *)pageViewController scrollViewDidScrollToIndex:(NSInteger)index;
+/// 从哪个item滚动到某个Item
+- (void)scrollToItemFromIndex:(NSInteger)fromIndex toIndex:(NSInteger)toIndex animate:(BOOL)animate;
+///从哪个item滚动到某个Item 带有滑动过程中的进度
+- (void)scrollToItemFromIndex:(NSInteger)fromIndex toIndex:(NSInteger)toIndex progress:(CGFloat)progress;
 @end
 
 ///数据源

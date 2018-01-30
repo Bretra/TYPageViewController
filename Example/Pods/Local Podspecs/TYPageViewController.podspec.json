@@ -1,9 +1,9 @@
 {
   "name": "TYPageViewController",
-  "version": "0.1.0",
-  "summary": "A short description of TYPageViewController.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/1130128166@qq.com/TYPageViewController",
+  "version": "0.1.4",
+  "summary": "TYPageViewController.",
+  "description": "多ScrollView 嵌套 悬停Header",
+  "homepage": "https://github.com/sherlockmm/TYPageViewController",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,19 @@
     "1130128166@qq.com": "wangzhiming@tuyabeat.com"
   },
   "source": {
-    "git": "https://github.com/1130128166@qq.com/TYPageViewController.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/sherlockmm/TYPageViewController.git",
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TYPageViewController/Classes/**/*"
+  "source_files": "TYPageViewController/Classes/**/*",
+  "dependencies": {
+    "MJRefresh": [
+      "=3.1.15"
+    ],
+    "SwipeTableView": [
+
+    ]
+  }
 }

@@ -8,6 +8,7 @@
 
 #import "TYAppDelegate.h"
 #import "TYHomeRootViewController.h"
+#import "MTDemo2ViewController.h"
 
 @implementation TYAppDelegate
 

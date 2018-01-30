@@ -18,7 +18,8 @@
 @property (nonatomic, weak) id<TYPageViewBarPluginDelagate> delegate;
 
 @property (nonatomic, strong) TYPageBar *tabViewBar;
-
+@property (nonatomic, assign) CGFloat contentPercentY;
+@property (nonatomic, assign) CGFloat contentOffsetY;
 @end
 
 @implementation TYPageViewControllerPluginTabBar
@@ -28,6 +29,7 @@
         self.tabViewBar = tabViewBar;
         self.tabViewBar.backgroundColor = [UIColor whiteColor];
         self.delegate = delegate;
+        self.contentPercentY = 0;
     }
     return self;
 }
@@ -113,21 +115,15 @@
     }
 
 }
+
+///更新frame
+///更新frame
+- (void)updatePageTabBarFrame:(CGRect)tabBarFrame contentPercentY:(CGFloat)contentPercentY contentOffset:(CGPoint)contentOffset; {
+}
+
 ///更新tabBar的frame吧
 - (void)updatePageTabBarFrame:(CGRect)tabBarFrame contentPercentY:(CGFloat)contentPercentY animate:(BOOL)animate {
-    
-    if (contentPercentY >= 0 && contentPercentY < 1) { //向上滑动
-      self.tabViewBar.frame = tabBarFrame;
-      self.tabViewBar.alpha = 1 - contentPercentY;
-    }else if (contentPercentY == 1) {
-         CGFloat tabBarHeight = CGRectGetHeight(self.tabViewBar.frame);
-        CGRect frame = CGRectMake(0 , 44, tabBarFrame.size.width, 44);
-        self.tabViewBar.frame = frame;
-        self.tabViewBar.center = CGPointMake([UIScreen mainScreen].bounds.size.width*0.5, frame.origin.y + 22);
-        [UIView animateWithDuration:0.65 animations:^{
-          self.tabViewBar.alpha = 1.0f;
-        }];
-    }
+    self.tabViewBar.frame = tabBarFrame;
 }
 
 

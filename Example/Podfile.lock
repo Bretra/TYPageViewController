@@ -4,7 +4,11 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - TYPageViewController (0.1.0)
+  - MJRefresh (3.1.15)
+  - SwipeTableView (0.2.6)
+  - TYPageViewController (0.1.4):
+    - MJRefresh (= 3.1.15)
+    - SwipeTableView
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -16,7 +20,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  TYPageViewController: 629bf7e578f4953176e8929503047cbe4dcdfca2
+  MJRefresh: 9af70f5f9327a2cf87f0fb5929f35fcc2fa638ea
+  SwipeTableView: 67d8a2e6e18bd38c188fd4fabda0b278eaa08d2f
+  TYPageViewController: e3d4465ebc6b009a38d26e78835e2cb2976a3192
 
 PODFILE CHECKSUM: 3fa2c91a93b3d88b862c66ad427b99dad9182827
 

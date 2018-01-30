@@ -77,6 +77,8 @@ BOOL     _viewDidAppearIsCalledBefore;
     [super viewDidLayoutSubviews];
     [self loadContentView];
     
+    [self layoutSubViewWhenScrollViewFrameChange];
+    
     if (self.showIndexAfterAppear > 0) {
         [self scrollToIndex:self.showIndexAfterAppear animated:NO];
         self.showIndexAfterAppear = 0;
@@ -388,6 +390,7 @@ BOOL     _viewDidAppearIsCalledBefore;
     }
    
     [self tabDelegateScrollViewVerticalScroll:percent];
+    [self tabDelegateScrollViewVerticalScroll:percent contentOffset:scrollView.contentOffset];
   
 }
 
@@ -417,10 +420,20 @@ BOOL     _viewDidAppearIsCalledBefore;
             }
         
     }];
-
-    
 }
 
+- (void)tabDelegateScrollViewVerticalScroll:(float)percent contentOffset:(CGPoint)contentOffset {
+    
+    [self.plugins enumerateObjectsUsingBlock:^(TYPageViewControllerPluginBase *plugin, NSUInteger idx, BOOL *stop) {
+        CGRect tabBarFrame = CGRectZero;
+        if ([self.DataSource respondsToSelector:@selector(pageHeaderTabBarFrameForPageViewController:)]) {
+            tabBarFrame = [self.DataSource pageHeaderTabBarFrameForPageViewController:self];
+            [plugin updatePageTabBarFrame:tabBarFrame contentPercentY:percent contentOffset:contentOffset];
+        }
+        
+    }];
+    
+}
 
 #pragma mark - HorizontalScroll
 
@@ -547,6 +560,12 @@ BOOL     _viewDidAppearIsCalledBefore;
         [plugin scrollToItemFromIndex:fromIndex toIndex:_curIndex animate:_scrollAnimated];
     }];
     _scrollAnimated = YES;
+    
+    //告诉自己的代理
+    if ([self.Delegate respondsToSelector:@selector(scrollToItemFromIndex:toIndex:animate:)]) {
+        [self.Delegate scrollToItemFromIndex:fromIndex toIndex:_curIndex animate:_scrollAnimated];
+    }
+    
 }
 
 - (void)caculateIndexByProgressWithOffsetX:(CGFloat)offsetX direction:(TYPageViewScrollingDirection)direction{
@@ -582,6 +601,11 @@ BOOL     _viewDidAppearIsCalledBefore;
     [self.plugins enumerateObjectsUsingBlock:^(TYPageViewControllerPluginBase *plugin, NSUInteger idx, BOOL * _Nonnull stop) {
         [plugin scrollToItemFromIndex:fromIndex toIndex:toIndex progress:progress];
     }];
+    //告诉代理
+    if ([self.Delegate respondsToSelector:@selector(scrollToItemFromIndex:toIndex:progress:)]) {
+        [self.Delegate scrollToItemFromIndex:fromIndex toIndex:toIndex progress:progress];
+    }
+    
 }
 
 
@@ -658,6 +682,19 @@ BOOL     _viewDidAppearIsCalledBefore;
     [self.containerView addSubview:self.scrollView];
 }
 
+
+- (void)layoutSubViewWhenScrollViewFrameChange {
+   if (CGRectGetHeight(self.scrollView.frame) == self.scrollView.contentSize.height) {
+            return;
+        }
+      NSInteger count = self.viewControllers.count;
+      CGFloat width = CGRectGetWidth(self.scrollView.bounds);
+        CGFloat height = CGRectGetHeight(self.scrollView.bounds);
+        self.scrollView.contentSize = CGSizeMake(width * count, height);
+        [self.viewControllers enumerateObjectsUsingBlock:^(UIViewController *viewController, NSUInteger idx, BOOL *stop) {
+            viewController.view.frame = CGRectMake(width * idx, 0, width, height);
+            }];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

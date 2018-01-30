@@ -10,15 +10,18 @@
 #import <TYPageViewController/TYPageViewControllerHeader.h>
 #import "TYViewController.h"
 #import "TYRecommetViewController.h"
+#import "MTTitleView.h"
 
 
-@interface TYHomeRootViewController ()<TYPageViewControllerDataSource ,TYPageViewControllerDelagate,TYBasePageBarDataSource ,TYBasePageBarDelegate>
+@interface TYHomeRootViewController ()<TYPageViewControllerDataSource ,TYPageViewControllerDelagate,TYBasePageBarDataSource ,TYBasePageBarDelegate ,MTTitleViewDelegate>
 /** bar */
 @property (nonatomic , weak) TYBasePageBar *pageBar;
 /** 数据源 */
 @property (nonatomic , strong) NSMutableArray <UIViewController *> *dataArray;
 /** 垂直滚动的百分比 */
 @property (nonatomic , assign) CGFloat offsetPrecent;
+/** TitleView */
+@property (nonatomic , weak) MTTitleView *titleView;
 @end
 
 @implementation TYHomeRootViewController
@@ -32,6 +35,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self setupUI];
+    
     [self setupBasic];
 }
 
@@ -44,19 +48,17 @@
     return YES;
 }
 
-
 #pragma mark - setupBasic
 - (void)setupBasic {
     
     self.DataSource = self;
     self.Delegate = self;
+    self.headerZoomIn = NO;
     TYRecommetViewController *vc1 = [[TYRecommetViewController alloc] init];
-    vc1.view.backgroundColor = [UIColor redColor];
     vc1.title = @"推荐";
     TYViewController *vc2 = [TYViewController new];
     vc2.title = @"关注";
-    vc2.view.backgroundColor = [UIColor blueColor];
-    
+
     [self.dataArray addObject:vc1];
     [self.dataArray addObject:vc2];
 
@@ -87,6 +89,13 @@
  TYPageViewControllerPluginTabBar *pagePlugin =   [[TYPageViewControllerPluginTabBar alloc] initWithTabViewBar:self.pageBar delegate:nil];
     [self enablePlugin:pagePlugin];
     
+    CGRect frame = CGRectMake(0 , 0, [UIScreen mainScreen].bounds.size.height, 44);
+    /** TitleView */
+    MTTitleView *titleView = [[MTTitleView alloc] initWithFrame:frame];
+    titleView.delegate = self;
+    [self.view addSubview:titleView];
+    self.titleView = titleView;
+
 }
 
 /// 有多少个子视图控制器
@@ -102,6 +111,7 @@
 }
 //有多少个Bar
 - (NSInteger)numberOfItemsInPagerTabBar {
+    
     return self.dataArray.count;
 }
 // 每个Bar的样式
@@ -129,22 +139,36 @@
 
 /// 垂直滚动偏移的百分比
 - (void)pageViewController:(TYPageViewController *)pageViewController scrollViewVerticalScroll:(CGFloat)contentPercentY {
-
-    if (contentPercentY >= 1) {
-        self.pageBar.layout.normalTextFont = [UIFont boldSystemFontOfSize:20];
-        self.pageBar.layout.selectedTextFont = [UIFont boldSystemFontOfSize:20];
-        self.pageBar.layout.progressWidth = 40;
-        [self.pageBar reloadData];
+    NSLog(@"contentPercentY - %f" , contentPercentY);
+    if (contentPercentY >= 0 && contentPercentY < 1) {
+        self.pageBar.alpha = 1- contentPercentY;
+        [self.titleView statrAnimationing:contentPercentY];
     }else {
-        self.pageBar.layout.normalTextFont = [UIFont boldSystemFontOfSize:30];
-        self.pageBar.layout.selectedTextFont = [UIFont boldSystemFontOfSize:50];
-        self.pageBar.layout.progressWidth = 60;
-        [self.pageBar reloadData];
+        [self.titleView statrAnimationing:contentPercentY];
     }
-    
 }
+/// 从哪个item滚动到某个Item
+- (void)scrollToItemFromIndex:(NSInteger)fromIndex toIndex:(NSInteger)toIndex animate:(BOOL)animate {
+    
+    NSLog(@"FromIndex%zd ----toIndex%zd" ,fromIndex , toIndex);
+    [self.titleView scrollToItemFromIndex:fromIndex toIndex:toIndex animate:animate];
+}
+///从哪个item滚动到某个Item 带有滑动过程中的进度
+- (void)scrollToItemFromIndex:(NSInteger)fromIndex toIndex:(NSInteger)toIndex progress:(CGFloat)progress {
+    NSLog(@"FromIndex%zd ----toIndex%zd----progress%f" ,fromIndex , toIndex , progress);
+    [self.titleView scrollToItemFromIndex:fromIndex toIndex:toIndex progress:progress];
+}
+
 ///选了那个ItemBar
 - (void)pagerTabBar:(TYBasePageBar *_Nullable)pagerTabBar didSelectItemAtIndex:(NSInteger)index {
+    
+    [self scrollToIndex:index animated:YES];
+    [self.titleView pageBarCurrentSelectedIndex:index];
+}
+
+#pragma mark - MTTitleViewDelegate
+///选了那个ItemBar
+- (void)titlePagerTabBar:(TYBasePageBar *_Nullable)pagerTabBar didSelectItemAtIndex:(NSInteger)index {
     
     [self scrollToIndex:index animated:YES];
 }

@@ -25,6 +25,8 @@
 - (void)scrollToItemFromIndex:(NSInteger)fromIndex toIndex:(NSInteger)toIndex progress:(CGFloat)progress;
 ///更新tabBar的frame
 - (void)updatePageTabBarFrame:(CGRect)tabBarFrame contentPercentY:(CGFloat)contentPercentY animate:(BOOL)animate;
+///更新frame
+- (void)updatePageTabBarFrame:(CGRect)tabBarFrame contentPercentY:(CGFloat)contentPercentY contentOffset:(CGPoint)contentOffset;
 
 @end
 @interface TYPageViewControllerPluginBase : NSObject<TYPageViewControllerPlugin>
