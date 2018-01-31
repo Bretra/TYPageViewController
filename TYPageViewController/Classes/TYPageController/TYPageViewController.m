@@ -661,6 +661,7 @@ BOOL     _viewDidAppearIsCalledBefore;
     self.headerZoomIn = YES;
     self.isTapScrollMoved = NO;
     self.scrollAnimated = YES;
+    self.scrollEnabled = YES;
     self.preOffsetX = 0;
     self.changeIndexWhenScrollProgress = 0.5;
     self.containerView = [[UIView alloc] initWithFrame:self.view.bounds];
