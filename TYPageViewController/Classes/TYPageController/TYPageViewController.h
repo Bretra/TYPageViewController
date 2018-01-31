@@ -57,6 +57,8 @@
 @property (nonatomic, assign)    BOOL            headerZoomIn;
 ///当前的下标
 @property (nonatomic, assign, readonly)  NSInteger       curIndex;
+///是否开启手指滚动----默认是开启
+@property (nonatomic , assign) BOOL scrollEnabled;
 /// 滚动到某个index
 - (void)scrollToIndex:(NSInteger)index animated:(BOOL)animated;
 /// 获取某个index的ViewController

@@ -80,7 +80,7 @@
 #pragma mark - tabbar滚动
 
 - (void)scrollViewHorizontalScroll:(CGFloat)contentOffsetX {
-    NSLog(@"scrollViewHorizontalScroll");
+//    NSLog(@"scrollViewHorizontalScroll");
     if ([self.tabViewBar respondsToSelector:@selector(tabScrollXOffset:)]) {
         [self.tabViewBar tabScrollXOffset:contentOffsetX];
     }
@@ -92,7 +92,7 @@
 }
 
 - (void)scrollToItemFromIndex:(NSInteger)fromIndex toIndex:(NSInteger)toIndex progress:(CGFloat)progress {
-    NSLog(@"%s",__func__);
+//    NSLog(@"%s",__func__);
     if ([self.tabViewBar respondsToSelector:@selector(scrollToItemFromIndex:toIndex:progress:)]) {
         [self.tabViewBar scrollToItemFromIndex:fromIndex toIndex:toIndex progress:progress];
     }
@@ -100,7 +100,7 @@
 
 - (void)scrollToItemFromIndex:(NSInteger)fromIndex toIndex:(NSInteger)toIndex animate:(BOOL)animate {
     
-    NSLog(@"%s",__func__);
+//    NSLog(@"%s",__func__);
     
     if ([self.tabViewBar respondsToSelector:@selector(scrollToItemFromIndex:toIndex:animate:)]) {
         [self.tabViewBar scrollToItemFromIndex:fromIndex toIndex:toIndex animate:animate];
@@ -109,7 +109,7 @@
 
 
 - (void)scrollViewDidScrollToIndex:(NSInteger)index {
-    NSLog(@"scrollViewDidScrollToIndex");
+//    NSLog(@"scrollViewDidScrollToIndex");
     if ([self.tabViewBar respondsToSelector:@selector(tabDidScrollToIndex:)]) {
         [self.tabViewBar tabDidScrollToIndex:index];
     }

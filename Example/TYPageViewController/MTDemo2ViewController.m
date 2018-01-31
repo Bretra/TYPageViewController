@@ -26,6 +26,20 @@
 
 #pragma mark - setupUI
 - (void)setupUI {
+    
+    self.view.backgroundColor = [UIColor redColor];
+    
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    NSLog(@"MTDemo2ViewController  --- %s" , __func__);
+    
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    NSLog(@"MTDemo2ViewController  --- %s" , __func__);
 }
 
 - (void)didReceiveMemoryWarning {

@@ -678,6 +678,7 @@ BOOL     _viewDidAppearIsCalledBefore;
     self.scrollView.delegate = self;
     self.scrollView.scrollsToTop = NO;
     self.scrollView.delaysContentTouches = NO;
+    self.scrollView.scrollEnabled = self.scrollEnabled;
     self.scrollView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     [self.containerView addSubview:self.scrollView];
 }

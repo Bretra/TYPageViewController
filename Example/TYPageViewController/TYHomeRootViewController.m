@@ -139,7 +139,7 @@
 
 /// 垂直滚动偏移的百分比
 - (void)pageViewController:(TYPageViewController *)pageViewController scrollViewVerticalScroll:(CGFloat)contentPercentY {
-    NSLog(@"contentPercentY - %f" , contentPercentY);
+    
     if (contentPercentY >= 0 && contentPercentY < 1) {
         self.pageBar.alpha = 1- contentPercentY;
         [self.titleView statrAnimationing:contentPercentY];
@@ -150,12 +150,12 @@
 /// 从哪个item滚动到某个Item
 - (void)scrollToItemFromIndex:(NSInteger)fromIndex toIndex:(NSInteger)toIndex animate:(BOOL)animate {
     
-    NSLog(@"FromIndex%zd ----toIndex%zd" ,fromIndex , toIndex);
+//    NSLog(@"FromIndex%zd ----toIndex%zd" ,fromIndex , toIndex);
     [self.titleView scrollToItemFromIndex:fromIndex toIndex:toIndex animate:animate];
 }
 ///从哪个item滚动到某个Item 带有滑动过程中的进度
 - (void)scrollToItemFromIndex:(NSInteger)fromIndex toIndex:(NSInteger)toIndex progress:(CGFloat)progress {
-    NSLog(@"FromIndex%zd ----toIndex%zd----progress%f" ,fromIndex , toIndex , progress);
+//    NSLog(@"FromIndex%zd ----toIndex%zd----progress%f" ,fromIndex , toIndex , progress);
     [self.titleView scrollToItemFromIndex:fromIndex toIndex:toIndex progress:progress];
 }
 

@@ -12,7 +12,7 @@
 @interface MTTitleView ()<TYBasePageBarDataSource ,TYBasePageBarDelegate>
 /** bar */
 @property (nonatomic , weak) TYBasePageBar *titlePageBar;
-/** <#type#> */
+/** 数据源 */
 @property (nonatomic , strong) NSMutableArray<NSString *> *dataArray;
 @end
 
@@ -41,6 +41,7 @@
 }
 
 - (void)setupTitleBar {
+    
     TYBasePageBar *pageBar = [[TYBasePageBar alloc] init];
     pageBar.dataSource = self;
     pageBar.collectionView.backgroundColor = [UIColor whiteColor];
@@ -116,7 +117,7 @@
 - (void)layoutSubviews {
     [super layoutSubviews];
     self.titlePageBar.frame = self.bounds;
-    self.titlePageBar.center = CGPointMake([UIScreen mainScreen].bounds.size.width*0.5, self.frame.origin.y + 22);
+//    self.titlePageBar.center = CGPointMake([UIScreen mainScreen].bounds.size.width*0.5, self.frame.origin.y + 22);
 }
 
 @end

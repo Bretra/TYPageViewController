@@ -34,6 +34,17 @@
     self.tableView.mj_header = header;
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    NSLog(@"TYViewController  --- %s" , __func__);
+    
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    NSLog(@"TYViewController  --- %s" , __func__);
+}
+
 #pragma mark - loadData
 - (void)loadData {
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
