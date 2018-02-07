@@ -20,9 +20,10 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6D0972B9202AF463006B0B20 /* TYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0972B8202AF462006B0B20 /* TYTabBarController.m */; };
 		6D6921E92021959B00201D06 /* TYCreateionRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6921E82021959B00201D06 /* TYCreateionRootViewController.m */; };
 		6D6921ED202195D600201D06 /* TYDemo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6921EC202195D600201D06 /* TYDemo1ViewController.m */; };
-		6DC380CB201A1F290063B3D7 /* TYHomeRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC380CA201A1F290063B3D7 /* TYHomeRootViewController.m */; };
+		6DC380CB201A1F290063B3D7 /* MTHomeRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC380CA201A1F290063B3D7 /* MTHomeRootViewController.m */; };
 		6DC380CE201A25030063B3D7 /* TYRecommetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC380CD201A25030063B3D7 /* TYRecommetViewController.m */; };
 		6DD4F1AE20280768007A20E5 /* UIPlaceHolderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD4F1AD20280768007A20E5 /* UIPlaceHolderTextView.m */; };
 		6DDEB970201F276E00B0B023 /* MTDemo2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDEB96F201F276E00B0B023 /* MTDemo2ViewController.m */; };
@@ -67,12 +68,14 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6854B83B84580736A0F8ACBE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6D0972B7202AF462006B0B20 /* TYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabBarController.h; sourceTree = "<group>"; };
+		6D0972B8202AF462006B0B20 /* TYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabBarController.m; sourceTree = "<group>"; };
 		6D6921E72021959B00201D06 /* TYCreateionRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYCreateionRootViewController.h; sourceTree = "<group>"; };
 		6D6921E82021959B00201D06 /* TYCreateionRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYCreateionRootViewController.m; sourceTree = "<group>"; };
 		6D6921EB202195D600201D06 /* TYDemo1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYDemo1ViewController.h; sourceTree = "<group>"; };
 		6D6921EC202195D600201D06 /* TYDemo1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYDemo1ViewController.m; sourceTree = "<group>"; };
-		6DC380C9201A1F290063B3D7 /* TYHomeRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYHomeRootViewController.h; sourceTree = "<group>"; };
-		6DC380CA201A1F290063B3D7 /* TYHomeRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYHomeRootViewController.m; sourceTree = "<group>"; };
+		6DC380C9201A1F290063B3D7 /* MTHomeRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTHomeRootViewController.h; sourceTree = "<group>"; };
+		6DC380CA201A1F290063B3D7 /* MTHomeRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTHomeRootViewController.m; sourceTree = "<group>"; };
 		6DC380CC201A25030063B3D7 /* TYRecommetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYRecommetViewController.h; sourceTree = "<group>"; };
 		6DC380CD201A25030063B3D7 /* TYRecommetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYRecommetViewController.m; sourceTree = "<group>"; };
 		6DD4F1AC20280768007A20E5 /* UIPlaceHolderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPlaceHolderTextView.h; sourceTree = "<group>"; };
@@ -162,14 +165,16 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
-				6DC380C9201A1F290063B3D7 /* TYHomeRootViewController.h */,
-				6DC380CA201A1F290063B3D7 /* TYHomeRootViewController.m */,
+				6DC380C9201A1F290063B3D7 /* MTHomeRootViewController.h */,
+				6DC380CA201A1F290063B3D7 /* MTHomeRootViewController.m */,
 				6DC380CC201A25030063B3D7 /* TYRecommetViewController.h */,
 				6DC380CD201A25030063B3D7 /* TYRecommetViewController.m */,
 				6DDEB971201F554600B0B023 /* MTTitleView.h */,
 				6DDEB972201F554600B0B023 /* MTTitleView.m */,
 				6D6921E72021959B00201D06 /* TYCreateionRootViewController.h */,
 				6D6921E82021959B00201D06 /* TYCreateionRootViewController.m */,
+				6D0972B7202AF462006B0B20 /* TYTabBarController.h */,
+				6D0972B8202AF462006B0B20 /* TYTabBarController.m */,
 			);
 			name = "Example for TYPageViewController";
 			path = TYPageViewController;
@@ -504,9 +509,10 @@
 			files = (
 				6003F59E195388D20070C39A /* TYAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* TYViewController.m in Sources */,
-				6DC380CB201A1F290063B3D7 /* TYHomeRootViewController.m in Sources */,
+				6DC380CB201A1F290063B3D7 /* MTHomeRootViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				6DD4F1AE20280768007A20E5 /* UIPlaceHolderTextView.m in Sources */,
+				6D0972B9202AF463006B0B20 /* TYTabBarController.m in Sources */,
 				6D6921E92021959B00201D06 /* TYCreateionRootViewController.m in Sources */,
 				6DC380CE201A25030063B3D7 /* TYRecommetViewController.m in Sources */,
 				6DDEB970201F276E00B0B023 /* MTDemo2ViewController.m in Sources */,

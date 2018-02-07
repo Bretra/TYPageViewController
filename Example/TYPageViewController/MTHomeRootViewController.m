@@ -6,7 +6,7 @@
 //  Copyright © 2018年 1130128166@qq.com. All rights reserved.
 //
 
-#import "TYHomeRootViewController.h"
+#import "MTHomeRootViewController.h"
 #import <TYPageViewController/TYPageViewControllerHeader.h>
 #import "TYViewController.h"
 #import "TYRecommetViewController.h"
@@ -14,7 +14,7 @@
 #import "TYDemo1ViewController.h"
 
 
-@interface TYHomeRootViewController ()<TYPageViewControllerDataSource ,TYPageViewControllerDelagate,TYBasePageBarDataSource ,TYBasePageBarDelegate ,MTTitleViewDelegate>
+@interface MTHomeRootViewController ()<TYPageViewControllerDataSource ,TYPageViewControllerDelagate,TYBasePageBarDataSource ,TYBasePageBarDelegate ,MTTitleViewDelegate>
 /** bar */
 @property (nonatomic , weak) TYBasePageBar *pageBar;
 /** 数据源 */
@@ -25,7 +25,7 @@
 @property (nonatomic , weak) MTTitleView *titleView;
 @end
 
-@implementation TYHomeRootViewController
+@implementation MTHomeRootViewController
 - (NSMutableArray<UIViewController *> *)dataArray {
     if (!_dataArray) {
         _dataArray = [NSMutableArray array];

@@ -28,8 +28,10 @@
     if ([self.view isKindOfClass:[UIScrollView class]]) {
         [self setPageContentScrollView:(UIScrollView *)self.view];
     } else {
+        UITabBarController *tabBar = [[UITabBarController alloc
+                                       ] init];
         for (UIScrollView *subview in self.view.subviews) {
-            if ([subview isKindOfClass:[UIScrollView class]] && CGSizeEqualToSize(subview.frame.size, self.view.frame.size)) {
+            if (([subview isKindOfClass:[UIScrollView class]] && CGSizeEqualToSize(subview.frame.size, self.view.frame.size)) || ((subview.frame.size.height - self.view.frame.size.height) == tabBar.tabBar.frame.size.height )) {
                 [self setPageContentScrollView:subview];
                 break;
             }

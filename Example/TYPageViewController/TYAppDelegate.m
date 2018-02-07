@@ -7,9 +7,10 @@
 //
 
 #import "TYAppDelegate.h"
-#import "TYHomeRootViewController.h"
+#import "MTHomeRootViewController.h"
 #import "MTDemo2ViewController.h"
 #import "TYCreateionRootViewController.h"
+#import "TYTabBarController.h"
 
 @implementation TYAppDelegate
 
@@ -17,9 +18,8 @@
 {
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    TYHomeRootViewController *homeVc = [[TYHomeRootViewController alloc] init];
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:homeVc];
-    self.window.rootViewController = nav;
+    TYTabBarController *tab = [[TYTabBarController alloc] init];
+    self.window.rootViewController = tab;
     [self.window makeKeyAndVisible];
 
     return YES;

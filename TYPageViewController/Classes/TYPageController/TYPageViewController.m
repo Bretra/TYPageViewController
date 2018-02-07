@@ -205,7 +205,7 @@ BOOL     _viewDidAppearIsCalledBefore;
     [self loadHeadViewDateSource];
     [self loadPlugins];
     [self loadGeneralParam];
-    [self loadControllerView];
+    [self loadControllerView];// 确保布局正确之后调用？
     [self layoutHeaderView];
     [self layoutControllerView];
     [self enableCurScrollViewScrollToTop:YES];

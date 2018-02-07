@@ -30,18 +30,27 @@ static NSString  * const kHomeCellIdentifier = @"TYHomeCollectionViewCell";
     collectView.dataSource = self;
     collectView.delegate = self;
     collectView.alwaysBounceVertical = YES;
-    collectView.contentInset = UIEdgeInsetsMake(0, 0, 64, 0);
+    collectView.contentInset = UIEdgeInsetsMake(0, 0, 0, 0);
     [collectView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:kHomeCellIdentifier];
     collectView.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:collectView];
     self.collectionView = collectView;
 }
 
+- (void)viewWillLayoutSubviews {
+    [super viewWillLayoutSubviews];
+    self.collectionView.frame = self.view.bounds;
+}
+
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     NSLog(@"TYDemo1ViewController  --- %s" , __func__);
-    
 }
+
+- (BOOL)prefersStatusBarHidden {
+    return YES;
+}
+
 
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];

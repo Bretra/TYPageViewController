@@ -8,6 +8,6 @@
 
 #import <TYPageViewController/TYPageViewController.h>
 
-@interface TYHomeRootViewController : TYPageViewController
+@interface MTHomeRootViewController : TYPageViewController
 
 @end
