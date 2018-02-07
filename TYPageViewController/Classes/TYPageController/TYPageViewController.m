@@ -220,14 +220,12 @@ BOOL     _viewDidAppearIsCalledBefore;
     for (NSInteger i = 0; i < count; i++) {
         UIViewController *vc = [self.DataSource pageViewController:self viewControllerForIndex:i];
         
-#ifdef __IPHONE_11_0
         if (@available(iOS 11.0, *)) {
             vc.pageContentScrollView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
         } else {
             vc.automaticallyAdjustsScrollViewInsets = NO;
         }
         
-#endif
         [viewControllers addObject:vc];
     }
     self.viewControllers = viewControllers;
@@ -277,11 +275,11 @@ BOOL     _viewDidAppearIsCalledBefore;
         scrollView.scrollIndicatorInsets = inset;
         scrollView.contentOffset = CGPointMake(0, -inset.top);
         scrollView.scrollsToTop = NO;
-#ifdef __IPHONE_11_0
+
         if (@available(iOS 11.0, *)) {
             scrollView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
         }
-#endif
+        
         [scrollView addObserver:self forKeyPath:@"contentOffset" options:NSKeyValueObservingOptionOld context:nil];
 
     }];
@@ -498,13 +496,11 @@ BOOL     _viewDidAppearIsCalledBefore;
         [curScrollView setContentOffset:CGPointMake(0, -insets.top) animated:YES];
     }
     _contentOffsetY = curScrollView.contentOffset.y;
-#ifdef __IPHONE_11_0
     if (@available(iOS 11.0, *)) {
         if (_contentOffsetY < 0 && _contentOffsetY < -CGRectGetMaxY(self.tabHeaderView.frame)) {
             [self observeValueForKeyPath:@"contentOffset" ofObject:curScrollView change:nil context:nil];
         }
     }
-#endif
     [self enableCurScrollViewScrollToTop:YES];
     [self viewDidScrollToIndex:self.curIndex];
 }

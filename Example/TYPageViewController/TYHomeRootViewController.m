@@ -11,6 +11,7 @@
 #import "TYViewController.h"
 #import "TYRecommetViewController.h"
 #import "MTTitleView.h"
+#import "TYDemo1ViewController.h"
 
 
 @interface TYHomeRootViewController ()<TYPageViewControllerDataSource ,TYPageViewControllerDelagate,TYBasePageBarDataSource ,TYBasePageBarDelegate ,MTTitleViewDelegate>
@@ -54,7 +55,7 @@
     self.DataSource = self;
     self.Delegate = self;
     self.headerZoomIn = NO;
-    TYRecommetViewController *vc1 = [[TYRecommetViewController alloc] init];
+    TYDemo1ViewController *vc1 = [[TYDemo1ViewController alloc] init];
     vc1.title = @"推荐";
     TYViewController *vc2 = [TYViewController new];
     vc2.title = @"关注";
@@ -89,7 +90,7 @@
  TYPageViewControllerPluginTabBar *pagePlugin =   [[TYPageViewControllerPluginTabBar alloc] initWithTabViewBar:self.pageBar delegate:nil];
     [self enablePlugin:pagePlugin];
     
-    CGRect frame = CGRectMake(0 , 0, [UIScreen mainScreen].bounds.size.height, 44);
+    CGRect frame = CGRectMake(0 , 0, [UIScreen mainScreen].bounds.size.width, 44);
     /** TitleView */
     MTTitleView *titleView = [[MTTitleView alloc] initWithFrame:frame];
     titleView.delegate = self;

@@ -17,7 +17,7 @@
 {
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    TYCreateionRootViewController *homeVc = [[TYCreateionRootViewController alloc] init];
+    TYHomeRootViewController *homeVc = [[TYHomeRootViewController alloc] init];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:homeVc];
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];

@@ -117,6 +117,7 @@
 - (void)layoutSubviews {
     [super layoutSubviews];
     self.titlePageBar.frame = self.bounds;
+    self.titlePageBar.center = self.center;
 //    self.titlePageBar.center = CGPointMake([UIScreen mainScreen].bounds.size.width*0.5, self.frame.origin.y + 22);
 }
 

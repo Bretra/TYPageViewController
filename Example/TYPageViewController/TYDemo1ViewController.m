@@ -8,10 +8,11 @@
 
 #import "TYDemo1ViewController.h"
 
-@interface TYDemo1ViewController ()
-
+@interface TYDemo1ViewController ()<UICollectionViewDataSource ,UICollectionViewDelegate>
+/** collectionView */
+@property (nonatomic , weak) UICollectionView *collectionView;
 @end
-
+static NSString  * const kHomeCellIdentifier = @"TYHomeCollectionViewCell";
 @implementation TYDemo1ViewController
 
 
@@ -20,6 +21,20 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor blueColor];
+    UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
+    layout.minimumLineSpacing = 40;
+    layout.minimumInteritemSpacing = 0;
+    layout.sectionInset = UIEdgeInsetsMake(10, 0, 0, 0);    
+    layout.itemSize = CGSizeMake(370, 140);
+    UICollectionView *collectView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:layout];
+    collectView.dataSource = self;
+    collectView.delegate = self;
+    collectView.alwaysBounceVertical = YES;
+    collectView.contentInset = UIEdgeInsetsMake(0, 0, 64, 0);
+    [collectView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:kHomeCellIdentifier];
+    collectView.backgroundColor = [UIColor whiteColor];
+    [self.view addSubview:collectView];
+    self.collectionView = collectView;
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -33,19 +48,24 @@
     NSLog(@"TYDemo1ViewController  --- %s" , __func__);
 }
 
+#pragma mark - UICollectionViewDelegate & UICollectionViewDataSource
+
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+    return 30;
+}
+
+// The cell that is returned must be retrieved from a call to -dequeueReusableCellWithReuseIdentifier:forIndexPath:
+- (__kindof UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
+    
+    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:kHomeCellIdentifier forIndexPath:indexPath];
+    cell.backgroundColor = [UIColor redColor];
+    return cell;
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
