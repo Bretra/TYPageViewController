@@ -21,10 +21,36 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		6D0972B9202AF463006B0B20 /* TYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0972B8202AF462006B0B20 /* TYTabBarController.m */; };
+		6D6143EB203FF3A700690FCD /* TYTestOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6143EA203FF3A700690FCD /* TYTestOneViewController.m */; };
+		6D6143EE203FF3B800690FCD /* TYTestTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6143ED203FF3B800690FCD /* TYTestTwoViewController.m */; };
+		6D6143F1203FF3D300690FCD /* TYThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6143F0203FF3D300690FCD /* TYThreeViewController.m */; };
+		6D6143F4203FF4C700690FCD /* TYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6143F3203FF4C700690FCD /* TYTabBar.m */; };
+		6D6143F7203FFC9D00690FCD /* TYPublishedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6143F6203FFC9D00690FCD /* TYPublishedViewController.m */; };
+		6D6143FD203FFDF700690FCD /* TYPublishTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6143F9203FFDF600690FCD /* TYPublishTransitionDelegate.m */; };
+		6D6143FE203FFDF700690FCD /* TYPublishTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6143FB203FFDF600690FCD /* TYPublishTransitionAnimator.m */; };
+		6D6144112040581600690FCD /* TYCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6144102040581600690FCD /* TYCircleProgressView.m */; };
 		6D6921E92021959B00201D06 /* TYCreateionRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6921E82021959B00201D06 /* TYCreateionRootViewController.m */; };
 		6D6921ED202195D600201D06 /* TYDemo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6921EC202195D600201D06 /* TYDemo1ViewController.m */; };
+		6DB6CDD5205A5525000CAEF6 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DB6CDD4205A5525000CAEF6 /* TestView.xib */; };
+		6DB6CDD8205A553A000CAEF6 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6CDD7205A553A000CAEF6 /* TestView.m */; };
 		6DC380CB201A1F290063B3D7 /* MTHomeRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC380CA201A1F290063B3D7 /* MTHomeRootViewController.m */; };
 		6DC380CE201A25030063B3D7 /* TYRecommetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC380CD201A25030063B3D7 /* TYRecommetViewController.m */; };
+		6DCF7E3E206C652700A7EB68 /* TYMainModuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF7E3D206C652700A7EB68 /* TYMainModuleViewController.m */; };
+		6DCF7E41206C654300A7EB68 /* TYWeiBoDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF7E40206C654300A7EB68 /* TYWeiBoDemoViewController.m */; };
+		6DCF7E44206CA31B00A7EB68 /* TYWeiBoHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF7E43206CA31B00A7EB68 /* TYWeiBoHomeViewController.m */; };
+		6DCF7E47206CA32700A7EB68 /* TYWeiBoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF7E46206CA32700A7EB68 /* TYWeiBoViewController.m */; };
+		6DCF7E4A206CA33600A7EB68 /* TYWeiBoVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF7E49206CA33600A7EB68 /* TYWeiBoVideoViewController.m */; };
+		6DCF7E4D206CA34400A7EB68 /* TYWeiBoPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF7E4C206CA34400A7EB68 /* TYWeiBoPhotoViewController.m */; };
+		6DCF7E64206CB30B00A7EB68 /* UINavigationController+SimpleNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF7E54206CB30B00A7EB68 /* UINavigationController+SimpleNavigationBar.m */; };
+		6DCF7E65206CB30B00A7EB68 /* UINavigationBar+SimpleNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF7E55206CB30B00A7EB68 /* UINavigationBar+SimpleNavigationBar.m */; };
+		6DCF7E66206CB30B00A7EB68 /* NSObject+SimpleNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF7E56206CB30B00A7EB68 /* NSObject+SimpleNavigationBar.m */; };
+		6DCF7E67206CB30B00A7EB68 /* UIViewController+SimpleNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF7E58206CB30B00A7EB68 /* UIViewController+SimpleNavigationBar.m */; };
+		6DCF7E68206CB30B00A7EB68 /* SimpleNavigationCustomBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF7E5B206CB30B00A7EB68 /* SimpleNavigationCustomBar.m */; };
+		6DCF7E69206CB30B00A7EB68 /* SimpleNavigationConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF7E5F206CB30B00A7EB68 /* SimpleNavigationConst.m */; };
+		6DCF7E6A206CB30B00A7EB68 /* UINavigationBar+SimpleNavigationBarPrivateProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF7E60206CB30B00A7EB68 /* UINavigationBar+SimpleNavigationBarPrivateProperty.m */; };
+		6DCF7E6B206CB30B00A7EB68 /* SimpleNavgationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF7E61206CB30B00A7EB68 /* SimpleNavgationBar.m */; };
+		6DCF7E6C206CB30B00A7EB68 /* UIColor+SimpleNavgationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF7E62206CB30B00A7EB68 /* UIColor+SimpleNavgationBar.m */; };
+		6DCF7E6F206CB71500A7EB68 /* TYWeiBoUserProfileHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF7E6E206CB71500A7EB68 /* TYWeiBoUserProfileHeaderView.m */; };
 		6DD4F1AE20280768007A20E5 /* UIPlaceHolderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD4F1AD20280768007A20E5 /* UIPlaceHolderTextView.m */; };
 		6DDEB970201F276E00B0B023 /* MTDemo2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDEB96F201F276E00B0B023 /* MTDemo2ViewController.m */; };
 		6DDEB973201F554600B0B023 /* MTTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDEB972201F554600B0B023 /* MTTitleView.m */; };
@@ -70,14 +96,66 @@
 		6854B83B84580736A0F8ACBE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6D0972B7202AF462006B0B20 /* TYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabBarController.h; sourceTree = "<group>"; };
 		6D0972B8202AF462006B0B20 /* TYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabBarController.m; sourceTree = "<group>"; };
+		6D6143E9203FF3A700690FCD /* TYTestOneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYTestOneViewController.h; sourceTree = "<group>"; };
+		6D6143EA203FF3A700690FCD /* TYTestOneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYTestOneViewController.m; sourceTree = "<group>"; };
+		6D6143EC203FF3B800690FCD /* TYTestTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYTestTwoViewController.h; sourceTree = "<group>"; };
+		6D6143ED203FF3B800690FCD /* TYTestTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYTestTwoViewController.m; sourceTree = "<group>"; };
+		6D6143EF203FF3D300690FCD /* TYThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYThreeViewController.h; sourceTree = "<group>"; };
+		6D6143F0203FF3D300690FCD /* TYThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYThreeViewController.m; sourceTree = "<group>"; };
+		6D6143F2203FF4C600690FCD /* TYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabBar.h; sourceTree = "<group>"; };
+		6D6143F3203FF4C700690FCD /* TYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabBar.m; sourceTree = "<group>"; };
+		6D6143F5203FFC9D00690FCD /* TYPublishedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYPublishedViewController.h; sourceTree = "<group>"; };
+		6D6143F6203FFC9D00690FCD /* TYPublishedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYPublishedViewController.m; sourceTree = "<group>"; };
+		6D6143F8203FFDF600690FCD /* TYPublishProgressProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPublishProgressProtocol.h; sourceTree = "<group>"; };
+		6D6143F9203FFDF600690FCD /* TYPublishTransitionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPublishTransitionDelegate.m; sourceTree = "<group>"; };
+		6D6143FA203FFDF600690FCD /* TYPublishTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPublishTransitionAnimator.h; sourceTree = "<group>"; };
+		6D6143FB203FFDF600690FCD /* TYPublishTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPublishTransitionAnimator.m; sourceTree = "<group>"; };
+		6D6143FC203FFDF600690FCD /* TYPublishTransitionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPublishTransitionDelegate.h; sourceTree = "<group>"; };
+		6D61440F2040581600690FCD /* TYCircleProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYCircleProgressView.h; sourceTree = "<group>"; };
+		6D6144102040581600690FCD /* TYCircleProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYCircleProgressView.m; sourceTree = "<group>"; };
 		6D6921E72021959B00201D06 /* TYCreateionRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYCreateionRootViewController.h; sourceTree = "<group>"; };
 		6D6921E82021959B00201D06 /* TYCreateionRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYCreateionRootViewController.m; sourceTree = "<group>"; };
 		6D6921EB202195D600201D06 /* TYDemo1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYDemo1ViewController.h; sourceTree = "<group>"; };
 		6D6921EC202195D600201D06 /* TYDemo1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYDemo1ViewController.m; sourceTree = "<group>"; };
+		6DB6CDD4205A5525000CAEF6 /* TestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
+		6DB6CDD6205A553A000CAEF6 /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		6DB6CDD7205A553A000CAEF6 /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 		6DC380C9201A1F290063B3D7 /* MTHomeRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTHomeRootViewController.h; sourceTree = "<group>"; };
 		6DC380CA201A1F290063B3D7 /* MTHomeRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTHomeRootViewController.m; sourceTree = "<group>"; };
 		6DC380CC201A25030063B3D7 /* TYRecommetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYRecommetViewController.h; sourceTree = "<group>"; };
 		6DC380CD201A25030063B3D7 /* TYRecommetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYRecommetViewController.m; sourceTree = "<group>"; };
+		6DCF7E3C206C652700A7EB68 /* TYMainModuleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYMainModuleViewController.h; sourceTree = "<group>"; };
+		6DCF7E3D206C652700A7EB68 /* TYMainModuleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYMainModuleViewController.m; sourceTree = "<group>"; };
+		6DCF7E3F206C654300A7EB68 /* TYWeiBoDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYWeiBoDemoViewController.h; sourceTree = "<group>"; };
+		6DCF7E40206C654300A7EB68 /* TYWeiBoDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYWeiBoDemoViewController.m; sourceTree = "<group>"; };
+		6DCF7E42206CA31B00A7EB68 /* TYWeiBoHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYWeiBoHomeViewController.h; sourceTree = "<group>"; };
+		6DCF7E43206CA31B00A7EB68 /* TYWeiBoHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYWeiBoHomeViewController.m; sourceTree = "<group>"; };
+		6DCF7E45206CA32700A7EB68 /* TYWeiBoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYWeiBoViewController.h; sourceTree = "<group>"; };
+		6DCF7E46206CA32700A7EB68 /* TYWeiBoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYWeiBoViewController.m; sourceTree = "<group>"; };
+		6DCF7E48206CA33600A7EB68 /* TYWeiBoVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYWeiBoVideoViewController.h; sourceTree = "<group>"; };
+		6DCF7E49206CA33600A7EB68 /* TYWeiBoVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYWeiBoVideoViewController.m; sourceTree = "<group>"; };
+		6DCF7E4B206CA34400A7EB68 /* TYWeiBoPhotoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYWeiBoPhotoViewController.h; sourceTree = "<group>"; };
+		6DCF7E4C206CA34400A7EB68 /* TYWeiBoPhotoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYWeiBoPhotoViewController.m; sourceTree = "<group>"; };
+		6DCF7E52206CB30B00A7EB68 /* SimpleNavigationCustomBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleNavigationCustomBar.h; sourceTree = "<group>"; };
+		6DCF7E53206CB30B00A7EB68 /* SimpleNavigationConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleNavigationConst.h; sourceTree = "<group>"; };
+		6DCF7E54206CB30B00A7EB68 /* UINavigationController+SimpleNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+SimpleNavigationBar.m"; sourceTree = "<group>"; };
+		6DCF7E55206CB30B00A7EB68 /* UINavigationBar+SimpleNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+SimpleNavigationBar.m"; sourceTree = "<group>"; };
+		6DCF7E56206CB30B00A7EB68 /* NSObject+SimpleNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SimpleNavigationBar.m"; sourceTree = "<group>"; };
+		6DCF7E57206CB30B00A7EB68 /* UINavigationBar+SimpleNavigationBarPrivateProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+SimpleNavigationBarPrivateProperty.h"; sourceTree = "<group>"; };
+		6DCF7E58206CB30B00A7EB68 /* UIViewController+SimpleNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SimpleNavigationBar.m"; sourceTree = "<group>"; };
+		6DCF7E59206CB30B00A7EB68 /* UIColor+SimpleNavgationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SimpleNavgationBar.h"; sourceTree = "<group>"; };
+		6DCF7E5A206CB30B00A7EB68 /* SimpleNavgationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleNavgationBar.h; sourceTree = "<group>"; };
+		6DCF7E5B206CB30B00A7EB68 /* SimpleNavigationCustomBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleNavigationCustomBar.m; sourceTree = "<group>"; };
+		6DCF7E5C206CB30B00A7EB68 /* NSObject+SimpleNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SimpleNavigationBar.h"; sourceTree = "<group>"; };
+		6DCF7E5D206CB30B00A7EB68 /* UINavigationBar+SimpleNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+SimpleNavigationBar.h"; sourceTree = "<group>"; };
+		6DCF7E5E206CB30B00A7EB68 /* UINavigationController+SimpleNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+SimpleNavigationBar.h"; sourceTree = "<group>"; };
+		6DCF7E5F206CB30B00A7EB68 /* SimpleNavigationConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleNavigationConst.m; sourceTree = "<group>"; };
+		6DCF7E60206CB30B00A7EB68 /* UINavigationBar+SimpleNavigationBarPrivateProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+SimpleNavigationBarPrivateProperty.m"; sourceTree = "<group>"; };
+		6DCF7E61206CB30B00A7EB68 /* SimpleNavgationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleNavgationBar.m; sourceTree = "<group>"; };
+		6DCF7E62206CB30B00A7EB68 /* UIColor+SimpleNavgationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SimpleNavgationBar.m"; sourceTree = "<group>"; };
+		6DCF7E63206CB30B00A7EB68 /* UIViewController+SimpleNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SimpleNavigationBar.h"; sourceTree = "<group>"; };
+		6DCF7E6D206CB71500A7EB68 /* TYWeiBoUserProfileHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYWeiBoUserProfileHeaderView.h; sourceTree = "<group>"; };
+		6DCF7E6E206CB71500A7EB68 /* TYWeiBoUserProfileHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYWeiBoUserProfileHeaderView.m; sourceTree = "<group>"; };
 		6DD4F1AC20280768007A20E5 /* UIPlaceHolderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPlaceHolderTextView.h; sourceTree = "<group>"; };
 		6DD4F1AD20280768007A20E5 /* UIPlaceHolderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPlaceHolderTextView.m; sourceTree = "<group>"; };
 		6DDEB96E201F276E00B0B023 /* MTDemo2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTDemo2ViewController.h; sourceTree = "<group>"; };
@@ -160,21 +238,9 @@
 				6003F59C195388D20070C39A /* TYAppDelegate.h */,
 				6003F59D195388D20070C39A /* TYAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* TYViewController.h */,
-				6003F5A6195388D20070C39A /* TYViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
-				6DC380C9201A1F290063B3D7 /* MTHomeRootViewController.h */,
-				6DC380CA201A1F290063B3D7 /* MTHomeRootViewController.m */,
-				6DC380CC201A25030063B3D7 /* TYRecommetViewController.h */,
-				6DC380CD201A25030063B3D7 /* TYRecommetViewController.m */,
-				6DDEB971201F554600B0B023 /* MTTitleView.h */,
-				6DDEB972201F554600B0B023 /* MTTitleView.m */,
-				6D6921E72021959B00201D06 /* TYCreateionRootViewController.h */,
-				6D6921E82021959B00201D06 /* TYCreateionRootViewController.m */,
-				6D0972B7202AF462006B0B20 /* TYTabBarController.h */,
-				6D0972B8202AF462006B0B20 /* TYTabBarController.m */,
 			);
 			name = "Example for TYPageViewController";
 			path = TYPageViewController;
@@ -220,13 +286,152 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		6D61440E204057F800690FCD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6DD4F1AB20280768007A20E5 /* PlaceHolderTextView */,
+				6D61440F2040581600690FCD /* TYCircleProgressView.h */,
+				6D6144102040581600690FCD /* TYCircleProgressView.m */,
+				6DB6CDD6205A553A000CAEF6 /* TestView.h */,
+				6DB6CDD7205A553A000CAEF6 /* TestView.m */,
+				6DB6CDD4205A5525000CAEF6 /* TestView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		6D6921EA202195C600201D06 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				6D6143F5203FFC9D00690FCD /* TYPublishedViewController.h */,
+				6D6143F6203FFC9D00690FCD /* TYPublishedViewController.m */,
 				6D6921EB202195D600201D06 /* TYDemo1ViewController.h */,
 				6D6921EC202195D600201D06 /* TYDemo1ViewController.m */,
 			);
 			name = ViewController;
+			sourceTree = "<group>";
+		};
+		6DCF7E2F206C638000A7EB68 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5A5195388D20070C39A /* TYViewController.h */,
+				6003F5A6195388D20070C39A /* TYViewController.m */,
+				6DC380C9201A1F290063B3D7 /* MTHomeRootViewController.h */,
+				6DC380CA201A1F290063B3D7 /* MTHomeRootViewController.m */,
+				6DC380CC201A25030063B3D7 /* TYRecommetViewController.h */,
+				6DC380CD201A25030063B3D7 /* TYRecommetViewController.m */,
+				6DDEB971201F554600B0B023 /* MTTitleView.h */,
+				6DDEB972201F554600B0B023 /* MTTitleView.m */,
+				6D6921E72021959B00201D06 /* TYCreateionRootViewController.h */,
+				6D6921E82021959B00201D06 /* TYCreateionRootViewController.m */,
+				6D0972B7202AF462006B0B20 /* TYTabBarController.h */,
+				6D0972B8202AF462006B0B20 /* TYTabBarController.m */,
+				6D6143F2203FF4C600690FCD /* TYTabBar.h */,
+				6D6143F3203FF4C700690FCD /* TYTabBar.m */,
+				6D6143E9203FF3A700690FCD /* TYTestOneViewController.h */,
+				6D6143EA203FF3A700690FCD /* TYTestOneViewController.m */,
+				6D6143EC203FF3B800690FCD /* TYTestTwoViewController.h */,
+				6D6143ED203FF3B800690FCD /* TYTestTwoViewController.m */,
+				6D6143EF203FF3D300690FCD /* TYThreeViewController.h */,
+				6D6143F0203FF3D300690FCD /* TYThreeViewController.m */,
+			);
+			name = Test;
+			sourceTree = "<group>";
+		};
+		6DCF7E30206C63BE00A7EB68 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				6D6143F8203FFDF600690FCD /* TYPublishProgressProtocol.h */,
+				6D6143FA203FFDF600690FCD /* TYPublishTransitionAnimator.h */,
+				6D6143FB203FFDF600690FCD /* TYPublishTransitionAnimator.m */,
+				6D6143FC203FFDF600690FCD /* TYPublishTransitionDelegate.h */,
+				6D6143F9203FFDF600690FCD /* TYPublishTransitionDelegate.m */,
+			);
+			name = Animation;
+			sourceTree = "<group>";
+		};
+		6DCF7E31206C63E100A7EB68 /* WeiBoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6DCF7E33206C63F600A7EB68 /* View */,
+				6DCF7E32206C63ED00A7EB68 /* ViewController */,
+			);
+			name = WeiBoDemo;
+			sourceTree = "<group>";
+		};
+		6DCF7E32206C63ED00A7EB68 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6DCF7E3F206C654300A7EB68 /* TYWeiBoDemoViewController.h */,
+				6DCF7E40206C654300A7EB68 /* TYWeiBoDemoViewController.m */,
+				6DCF7E42206CA31B00A7EB68 /* TYWeiBoHomeViewController.h */,
+				6DCF7E43206CA31B00A7EB68 /* TYWeiBoHomeViewController.m */,
+				6DCF7E45206CA32700A7EB68 /* TYWeiBoViewController.h */,
+				6DCF7E46206CA32700A7EB68 /* TYWeiBoViewController.m */,
+				6DCF7E48206CA33600A7EB68 /* TYWeiBoVideoViewController.h */,
+				6DCF7E49206CA33600A7EB68 /* TYWeiBoVideoViewController.m */,
+				6DCF7E4B206CA34400A7EB68 /* TYWeiBoPhotoViewController.h */,
+				6DCF7E4C206CA34400A7EB68 /* TYWeiBoPhotoViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		6DCF7E33206C63F600A7EB68 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6DCF7E6D206CB71500A7EB68 /* TYWeiBoUserProfileHeaderView.h */,
+				6DCF7E6E206CB71500A7EB68 /* TYWeiBoUserProfileHeaderView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6DCF7E37206C64BE00A7EB68 /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				6DCF7E38206C64D300A7EB68 /* ViewController */,
+			);
+			name = MainModule;
+			sourceTree = "<group>";
+		};
+		6DCF7E38206C64D300A7EB68 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6DCF7E3C206C652700A7EB68 /* TYMainModuleViewController.h */,
+				6DCF7E3D206C652700A7EB68 /* TYMainModuleViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		6DCF7E4E206CB2CC00A7EB68 /* Compoment */ = {
+			isa = PBXGroup;
+			children = (
+				6DCF7E51206CB30B00A7EB68 /* SimpleNavgationBar */,
+			);
+			name = Compoment;
+			sourceTree = "<group>";
+		};
+		6DCF7E51206CB30B00A7EB68 /* SimpleNavgationBar */ = {
+			isa = PBXGroup;
+			children = (
+				6DCF7E52206CB30B00A7EB68 /* SimpleNavigationCustomBar.h */,
+				6DCF7E53206CB30B00A7EB68 /* SimpleNavigationConst.h */,
+				6DCF7E54206CB30B00A7EB68 /* UINavigationController+SimpleNavigationBar.m */,
+				6DCF7E55206CB30B00A7EB68 /* UINavigationBar+SimpleNavigationBar.m */,
+				6DCF7E56206CB30B00A7EB68 /* NSObject+SimpleNavigationBar.m */,
+				6DCF7E57206CB30B00A7EB68 /* UINavigationBar+SimpleNavigationBarPrivateProperty.h */,
+				6DCF7E58206CB30B00A7EB68 /* UIViewController+SimpleNavigationBar.m */,
+				6DCF7E59206CB30B00A7EB68 /* UIColor+SimpleNavgationBar.h */,
+				6DCF7E5A206CB30B00A7EB68 /* SimpleNavgationBar.h */,
+				6DCF7E5B206CB30B00A7EB68 /* SimpleNavigationCustomBar.m */,
+				6DCF7E5C206CB30B00A7EB68 /* NSObject+SimpleNavigationBar.h */,
+				6DCF7E5D206CB30B00A7EB68 /* UINavigationBar+SimpleNavigationBar.h */,
+				6DCF7E5E206CB30B00A7EB68 /* UINavigationController+SimpleNavigationBar.h */,
+				6DCF7E5F206CB30B00A7EB68 /* SimpleNavigationConst.m */,
+				6DCF7E60206CB30B00A7EB68 /* UINavigationBar+SimpleNavigationBarPrivateProperty.m */,
+				6DCF7E61206CB30B00A7EB68 /* SimpleNavgationBar.m */,
+				6DCF7E62206CB30B00A7EB68 /* UIColor+SimpleNavgationBar.m */,
+				6DCF7E63206CB30B00A7EB68 /* UIViewController+SimpleNavigationBar.h */,
+			);
+			path = SimpleNavgationBar;
 			sourceTree = "<group>";
 		};
 		6DD4F1AB20280768007A20E5 /* PlaceHolderTextView */ = {
@@ -241,7 +446,12 @@
 		6DDEB969201F268E00B0B023 /* Classess */ = {
 			isa = PBXGroup;
 			children = (
-				6DD4F1AB20280768007A20E5 /* PlaceHolderTextView */,
+				6DCF7E4E206CB2CC00A7EB68 /* Compoment */,
+				6DCF7E37206C64BE00A7EB68 /* MainModule */,
+				6DCF7E31206C63E100A7EB68 /* WeiBoDemo */,
+				6DCF7E30206C63BE00A7EB68 /* Animation */,
+				6DCF7E2F206C638000A7EB68 /* Test */,
+				6D61440E204057F800690FCD /* View */,
 				6DDEB96B201F269F00B0B023 /* Demo2 */,
 				6DDEB96A201F269700B0B023 /* Demo1 */,
 			);
@@ -348,6 +558,7 @@
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
 						DevelopmentTeam = F3ZZL9NMTQ;
+						ProvisioningStyle = Automatic;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -381,6 +592,7 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				6DB6CDD5205A5525000CAEF6 /* TestView.xib in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,10 +616,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TYPageViewController_Tests/Pods-TYPageViewController_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -436,12 +650,10 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TYPageViewController_Example/Pods-TYPageViewController_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/TYPageViewController/TYPageViewController.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TYPageViewController.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,17 +719,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DCF7E6F206CB71500A7EB68 /* TYWeiBoUserProfileHeaderView.m in Sources */,
+				6D6143F1203FF3D300690FCD /* TYThreeViewController.m in Sources */,
+				6DCF7E68206CB30B00A7EB68 /* SimpleNavigationCustomBar.m in Sources */,
+				6DCF7E65206CB30B00A7EB68 /* UINavigationBar+SimpleNavigationBar.m in Sources */,
 				6003F59E195388D20070C39A /* TYAppDelegate.m in Sources */,
+				6DCF7E3E206C652700A7EB68 /* TYMainModuleViewController.m in Sources */,
+				6DCF7E67206CB30B00A7EB68 /* UIViewController+SimpleNavigationBar.m in Sources */,
+				6DCF7E6C206CB30B00A7EB68 /* UIColor+SimpleNavgationBar.m in Sources */,
+				6D6143F7203FFC9D00690FCD /* TYPublishedViewController.m in Sources */,
+				6DCF7E47206CA32700A7EB68 /* TYWeiBoViewController.m in Sources */,
+				6DCF7E6A206CB30B00A7EB68 /* UINavigationBar+SimpleNavigationBarPrivateProperty.m in Sources */,
 				6003F5A7195388D20070C39A /* TYViewController.m in Sources */,
+				6D6143EE203FF3B800690FCD /* TYTestTwoViewController.m in Sources */,
+				6DCF7E6B206CB30B00A7EB68 /* SimpleNavgationBar.m in Sources */,
+				6DCF7E44206CA31B00A7EB68 /* TYWeiBoHomeViewController.m in Sources */,
 				6DC380CB201A1F290063B3D7 /* MTHomeRootViewController.m in Sources */,
+				6D6143F4203FF4C700690FCD /* TYTabBar.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				6DCF7E41206C654300A7EB68 /* TYWeiBoDemoViewController.m in Sources */,
+				6D6143FE203FFDF700690FCD /* TYPublishTransitionAnimator.m in Sources */,
 				6DD4F1AE20280768007A20E5 /* UIPlaceHolderTextView.m in Sources */,
+				6D6143FD203FFDF700690FCD /* TYPublishTransitionDelegate.m in Sources */,
+				6DCF7E64206CB30B00A7EB68 /* UINavigationController+SimpleNavigationBar.m in Sources */,
+				6DCF7E69206CB30B00A7EB68 /* SimpleNavigationConst.m in Sources */,
 				6D0972B9202AF463006B0B20 /* TYTabBarController.m in Sources */,
+				6DCF7E66206CB30B00A7EB68 /* NSObject+SimpleNavigationBar.m in Sources */,
+				6DB6CDD8205A553A000CAEF6 /* TestView.m in Sources */,
+				6D6143EB203FF3A700690FCD /* TYTestOneViewController.m in Sources */,
 				6D6921E92021959B00201D06 /* TYCreateionRootViewController.m in Sources */,
 				6DC380CE201A25030063B3D7 /* TYRecommetViewController.m in Sources */,
+				6DCF7E4A206CA33600A7EB68 /* TYWeiBoVideoViewController.m in Sources */,
 				6DDEB970201F276E00B0B023 /* MTDemo2ViewController.m in Sources */,
 				6D6921ED202195D600201D06 /* TYDemo1ViewController.m in Sources */,
 				6DDEB973201F554600B0B023 /* MTTitleView.m in Sources */,
+				6D6144112040581600690FCD /* TYCircleProgressView.m in Sources */,
+				6DCF7E4D206CA34400A7EB68 /* TYWeiBoPhotoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -667,6 +904,8 @@
 			baseConfigurationReference = 9BDC1A3B47CC555AD01804F4 /* Pods-TYPageViewController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F3ZZL9NMTQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TYPageViewController/TYPageViewController-Prefix.pch";
@@ -675,6 +914,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -684,6 +924,8 @@
 			baseConfigurationReference = 7A8061EB354E772F81A13AB7 /* Pods-TYPageViewController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F3ZZL9NMTQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TYPageViewController/TYPageViewController-Prefix.pch";
@@ -692,6 +934,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

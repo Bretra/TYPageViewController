@@ -12,6 +12,7 @@
 #import "TYRecommetViewController.h"
 #import "MTTitleView.h"
 #import "TYDemo1ViewController.h"
+#import <MJRefresh/MJRefresh.h>
 
 
 @interface MTHomeRootViewController ()<TYPageViewControllerDataSource ,TYPageViewControllerDelagate,TYBasePageBarDataSource ,TYBasePageBarDelegate ,MTTitleViewDelegate>
@@ -23,9 +24,12 @@
 @property (nonatomic , assign) CGFloat offsetPrecent;
 /** TitleView */
 @property (nonatomic , weak) MTTitleView *titleView;
+/** 进度view */
+@property (nonatomic , weak) UIView *progressView;
 @end
 
-@implementation MTHomeRootViewController
+@implementation
+MTHomeRootViewController
 - (NSMutableArray<UIViewController *> *)dataArray {
     if (!_dataArray) {
         _dataArray = [NSMutableArray array];
@@ -45,8 +49,12 @@
     [self.navigationController setNavigationBarHidden:YES animated:animated];
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+}
+
 - (BOOL)prefersStatusBarHidden {
-    return YES;
+    return NO;
 }
 
 #pragma mark - setupBasic
@@ -54,16 +62,25 @@
     
     self.DataSource = self;
     self.Delegate = self;
-    self.headerZoomIn = NO;
+//    self.headerZoomIn = NO;
+    
     TYDemo1ViewController *vc1 = [[TYDemo1ViewController alloc] init];
     vc1.title = @"推荐";
+    
     TYViewController *vc2 = [TYViewController new];
     vc2.title = @"关注";
 
+    TYViewController *vc3 = [TYViewController new];
+    vc3.title = @"喜欢";
+    
     [self.dataArray addObject:vc1];
     [self.dataArray addObject:vc2];
-
+    [self.dataArray addObject:vc3];
+    
+    
 }
+
+
 
 #pragma mark - seupUI
 - (void)setupUI {
@@ -94,9 +111,29 @@
     /** TitleView */
     MTTitleView *titleView = [[MTTitleView alloc] initWithFrame:frame];
     titleView.delegate = self;
-    [self.view addSubview:titleView];
+//    [self.view addSubview:titleView];
     self.titleView = titleView;
+    
+    /** 进度view */
+    UIView *progressView = [[UIView alloc] init];
+    progressView.backgroundColor = [UIColor redColor];
+    progressView.frame = CGRectMake(15, 15, 87, 129);
+    progressView.alpha = 0.0;
+    [self.view addSubview:progressView];
+    self.progressView = progressView;
+    
+}
 
+- (void)loadData {
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+    });
+    
+}
+
+#pragma mark - TYPublishProgressProtocol
+- (UIView *)getProgressView {
+    return self.progressView;
 }
 
 /// 有多少个子视图控制器
@@ -124,29 +161,29 @@
 
 - (UIView *)pageHeaderViewForPageViewController:(TYPageViewController *)pageViewController {
     
-    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 375, 88)];
-    view.backgroundColor = [UIColor whiteColor];
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 375, 200)];
+    view.backgroundColor = [UIColor redColor];
     return view;
 }
 /// headerView 的高度
 - (CGFloat)pageHeaderBottomInsetForPageViewController:(TYPageViewController *)pageViewController {
-    return BarDefaultHeight;
+    return BarDefaultHeight + CGRectGetMaxY(self.navigationController.navigationBar.frame);
 }
-///修改TaBar的frame
-- (CGRect)pageHeaderTabBarFrameForPageViewController:(TYPageViewController *)pageViewController {
-    
-    return  CGRectMake(0, 44, 200, 44);
-}
+/////修改TaBar的frame
+//- (CGRect)pageHeaderTabBarFrameForPageViewController:(TYPageViewController *)pageViewController {
+//
+//    return  CGRectMake(0, 44, 200, 44);
+//}
 
 /// 垂直滚动偏移的百分比
 - (void)pageViewController:(TYPageViewController *)pageViewController scrollViewVerticalScroll:(CGFloat)contentPercentY {
     
-    if (contentPercentY >= 0 && contentPercentY < 1) {
-        self.pageBar.alpha = 1- contentPercentY;
-        [self.titleView statrAnimationing:contentPercentY];
-    }else {
-        [self.titleView statrAnimationing:contentPercentY];
-    }
+//    if (contentPercentY >= 0 && contentPercentY < 1) {
+//        self.pageBar.alpha = 1- contentPercentY;
+//        [self.titleView statrAnimationing:contentPercentY];
+//    }else {
+//        [self.titleView statrAnimationing:contentPercentY];
+//    }
 }
 /// 从哪个item滚动到某个Item
 - (void)scrollToItemFromIndex:(NSInteger)fromIndex toIndex:(NSInteger)toIndex animate:(BOOL)animate {

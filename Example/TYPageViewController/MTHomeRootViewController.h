@@ -8,6 +8,8 @@
 
 #import <TYPageViewController/TYPageViewController.h>
 
-@interface MTHomeRootViewController : TYPageViewController
+#import "TYPublishProgressProtocol.h"
+
+@interface MTHomeRootViewController : TYPageViewController <TYPublishProgressProtocol>
 
 @end

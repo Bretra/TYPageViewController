@@ -34,7 +34,7 @@
     self.DataSource = self;
     self.scrollEnabled = NO;
     TYDemo1ViewController *demo1 = [[TYDemo1ViewController alloc] init];
-    [self.dataArray addObject:demo1];
+//    [self.dataArray addObject:demo1];
     MTDemo2ViewController *demo2 = [[MTDemo2ViewController alloc] init];
     [self.dataArray addObject:demo2];
     

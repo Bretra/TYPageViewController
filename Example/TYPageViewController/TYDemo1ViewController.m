@@ -7,6 +7,7 @@
 //
 
 #import "TYDemo1ViewController.h"
+#import "TYPublishedViewController.h"
 
 @interface TYDemo1ViewController ()<UICollectionViewDataSource ,UICollectionViewDelegate>
 /** collectionView */
@@ -67,8 +68,13 @@ static NSString  * const kHomeCellIdentifier = @"TYHomeCollectionViewCell";
 - (__kindof UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:kHomeCellIdentifier forIndexPath:indexPath];
-    cell.backgroundColor = [UIColor redColor];
+    cell.backgroundColor = [UIColor magentaColor];
     return cell;
+}
+
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+   
+    
 }
 
 - (void)didReceiveMemoryWarning {

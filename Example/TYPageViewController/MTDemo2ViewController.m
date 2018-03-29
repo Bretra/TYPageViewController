@@ -10,6 +10,7 @@
 
 #import "TYRecommetViewController.h"
 #import "TYViewController.h"
+#import "TYPublishedViewController.h"
 
 @interface MTDemo2ViewController ()
 
@@ -27,7 +28,7 @@
 #pragma mark - setupUI
 - (void)setupUI {
     
-    self.view.backgroundColor = [UIColor redColor];
+    self.view.backgroundColor = [UIColor brownColor];
     
 }
 
@@ -40,6 +41,12 @@
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
     NSLog(@"MTDemo2ViewController  --- %s" , __func__);
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    
+    TYPublishedViewController *pub = [TYPublishedViewController new];
+    [self.navigationController pushViewController:pub animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
