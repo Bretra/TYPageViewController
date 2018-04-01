@@ -43,6 +43,7 @@
 		6D59A9B320711CAE00955DB1 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D59A99A20711CAE00955DB1 /* MJRefreshAutoFooter.m */; };
 		6D59A9B420711CAE00955DB1 /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D59A99C20711CAE00955DB1 /* MJRefreshComponent.m */; };
 		6D59A9B520711CAE00955DB1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6D59A99F20711CAE00955DB1 /* README.md */; };
+		6D59A9B8207120B000955DB1 /* Demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6D59A9B7207120B000955DB1 /* Demo.gif */; };
 		6D6143EB203FF3A700690FCD /* TYTestOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6143EA203FF3A700690FCD /* TYTestOneViewController.m */; };
 		6D6143EE203FF3B800690FCD /* TYTestTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6143ED203FF3B800690FCD /* TYTestTwoViewController.m */; };
 		6D6143F1203FF3D300690FCD /* TYThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6143F0203FF3D300690FCD /* TYThreeViewController.m */; };
@@ -160,6 +161,7 @@
 		6D59A99D20711CAE00955DB1 /* MJRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshFooter.h; sourceTree = "<group>"; };
 		6D59A99E20711CAE00955DB1 /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBackFooter.h; sourceTree = "<group>"; };
 		6D59A99F20711CAE00955DB1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6D59A9B7207120B000955DB1 /* Demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Demo.gif; sourceTree = "<group>"; };
 		6D6143E9203FF3A700690FCD /* TYTestOneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYTestOneViewController.h; sourceTree = "<group>"; };
 		6D6143EA203FF3A700690FCD /* TYTestOneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYTestOneViewController.m; sourceTree = "<group>"; };
 		6D6143EC203FF3B800690FCD /* TYTestTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYTestTwoViewController.h; sourceTree = "<group>"; };
@@ -455,6 +457,14 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
+		6D59A9B62071209000955DB1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6D59A9B7207120B000955DB1 /* Demo.gif */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
 		6D61440E204057F800690FCD /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -616,6 +626,7 @@
 		6DDEB969201F268E00B0B023 /* Classess */ = {
 			isa = PBXGroup;
 			children = (
+				6D59A9B62071209000955DB1 /* Resource */,
 				6DCF7E4E206CB2CC00A7EB68 /* Compoment */,
 				6DCF7E37206C64BE00A7EB68 /* MainModule */,
 				6DCF7E31206C63E100A7EB68 /* WeiBoDemo */,
@@ -764,6 +775,7 @@
 				6D59A9A320711CAE00955DB1 /* MJRefresh.bundle in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				6D59A9B8207120B000955DB1 /* Demo.gif in Resources */,
 				6DB6CDD5205A5525000CAEF6 /* TestView.xib in Resources */,
 				6D59A9B520711CAE00955DB1 /* README.md in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
