@@ -4,12 +4,10 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - MJRefresh (3.1.15)
   - TYPageViewController (0.2.4)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
-  - MJRefresh (= 3.1.15)
   - TYPageViewController (from `../`)
 
 EXTERNAL SOURCES:
@@ -18,9 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  MJRefresh: 9af70f5f9327a2cf87f0fb5929f35fcc2fa638ea
   TYPageViewController: 443a517fb1f2370f05b4ebbf71360ba8b16a52f7
 
-PODFILE CHECKSUM: 950b8d0d565a76861247e45cd52f9ac2dbf1c830
+PODFILE CHECKSUM: 3fa2c91a93b3d88b862c66ad427b99dad9182827
 
 COCOAPODS: 1.4.0

@@ -39,6 +39,7 @@ static NSString *const kWeiBoCellIdentifier = @"TYWeiBoCell";
     if (!cell) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:kWeiBoCellIdentifier];
     }
+    cell.textLabel.text = @"WBStatusCell";
     
     return cell;
 }

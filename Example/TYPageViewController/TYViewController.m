@@ -7,7 +7,7 @@
 //
 
 #import "TYViewController.h"
-#import <MJRefresh/MJRefresh.h>
+#import "MJRefresh.h"
 
 @interface TYViewController ()<UITableViewDataSource>
 /** tableView */

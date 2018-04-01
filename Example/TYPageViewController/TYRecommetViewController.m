@@ -7,7 +7,7 @@
 //
 
 #import "TYRecommetViewController.h"
-#import <MJRefresh/MJRefresh.h>
+#import "MJRefresh.h"
 
 @interface TYRecommetViewController ()<UITableViewDataSource>
 /** tableView */

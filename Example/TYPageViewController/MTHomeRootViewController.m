@@ -12,7 +12,7 @@
 #import "TYRecommetViewController.h"
 #import "MTTitleView.h"
 #import "TYDemo1ViewController.h"
-#import <MJRefresh/MJRefresh.h>
+#import "MJRefresh.h"
 
 
 @interface MTHomeRootViewController ()<TYPageViewControllerDataSource ,TYPageViewControllerDelagate,TYBasePageBarDataSource ,TYBasePageBarDelegate ,MTTitleViewDelegate>
