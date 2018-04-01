@@ -9,7 +9,7 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-！[DemoExample](https://github.com/sherlockmm/TYPageViewController/blob/master/Example/TYPageViewController/Demo.gif)
+![DemoExample](https://github.com/sherlockmm/TYPageViewController/blob/master/Example/TYPageViewController/Demo.gif)
 
 ## Requirements
 
