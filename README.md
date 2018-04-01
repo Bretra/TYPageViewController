@@ -9,6 +9,8 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+<img src = "https://github.com/sherlockmm/TYPageViewController/blob/master/Example/TYPageViewController/Demo.gif">
+
 ## Requirements
 
 ## Installation
@@ -82,15 +84,6 @@ pod 'TYPageViewController'
 - (NSInteger)numberOfViewControllerForTabViewController:(TYPageViewController *)pageViewController;
 /// 对应index 的 ViewController
 - (UIViewController *)pageViewController:(TYPageViewController *)pageViewController viewControllerForIndex:(NSInteger)index;
-@optional
-/// 自定制的headerView
-- (UIView *)pageHeaderViewForPageViewController:(TYPageViewController *)pageViewController;
-/// headerView 的高度
-- (CGFloat)pageHeaderBottomInsetForPageViewController:(TYPageViewController *)pageViewController;
-/// 内容边距
-- (UIEdgeInsets)containerInsetsForPageViewController:(TYPageViewController *)pageViewController;
-///修改TaBar的frame
-- (CGRect)pageHeaderTabBarFrameForPageViewController:(TYPageViewController *)pageViewController;
 ```
 
 # 代理
