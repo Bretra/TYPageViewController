@@ -9,7 +9,9 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-<img src = "https://github.com/sherlockmm/TYPageViewController/blob/master/Example/TYPageViewController/Demo.gif">
+< src=
+
+<iframe height=667 width=375 src = "https://github.com/sherlockmm/TYPageViewController/blob/master/Example/TYPageViewController/Demo.gif">
 
 ## Requirements
 
